@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Main {
     private static boolean isPolyndrome(String word){
-        String newWord = "";
+        StringBuilder newWord = new StringBuilder();
 
         for (int i = 0; i < word.length();i++){
             int count = word.length();
-            newWord += word.charAt(count-i-1);
+            newWord.append(word.charAt(count - i - 1));
         }
-        return word.equals(newWord);
+        return word.equals(newWord.toString());
     }
 
     private  static void checkPolyndrome(){
@@ -45,7 +45,15 @@ public class Main {
             System.out.print("\n");
         }
     }
-
+    private static void factorial(){
+         int sonuc = 1;
+         int sayi;
+         System.out.println("Sayi giriniz.");
+         sayi = new Scanner(System.in).nextInt();
+         for (int i = 1;i<=sayi;i++) {
+             sonuc *= i;
+         }System.out.println(sonuc);
+    }
     private static void decreaseAndIncrease(){
         int num = new Scanner(System.in).nextInt();
         for (int i = num;i>0;i--){
@@ -70,6 +78,7 @@ public class Main {
             for (int i = 2; i < num; i++) {
                 if (num % i == 0) {
                     isPrime = false;
+                    break;
                 }
             }
             if (isPrime){
@@ -82,11 +91,11 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        int choice = 0;
+        int choice;
         do {
             System.out.println("Algorithm Console \n Please Select the operation you want to use \n" +
                     " 1.)Check Polyndrome \n 2.)Total digit of number \n 3.)Star Application \n 4.)Increase and Decrease" +
-                    " \n 5.) Prime Number List \n 6.)Exit ");
+                    " \n 5.)Prime Number List \n 6.)Factorial \n 7.)Exit ");
             choice = new Scanner(System.in).nextInt();
             switch (choice) {
                 case 1:
@@ -105,10 +114,14 @@ public class Main {
                     primeNumberList();
                     break;
                 case 6:
+                    factorial();
+                    break;
+                case 7:
                     System.out.println("So long!");
                     System.exit(0);
                     break;
             }
-        }while (choice>=1 && choice<=6);
+        }while (choice>=1 && choice<=7);
     }
 }
+
