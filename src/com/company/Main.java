@@ -182,7 +182,8 @@ public class Main {
         do {
             System.out.println("Algorithm Console \n Please Select the operation you want to use \n" +
                     " 1.)Check Polyndrome \n 2.)Total digit of number \n 3.)Star Application \n 4.)Increase and Decrease" +
-                    " \n 5.)Prime Number List \n 6.)Factorial \n 7.)Parse \n 8.)Exit ");
+                    " \n 5.)Prime Number List \n 6.)Factorial \n 7.)Parse \n 8.)Convert to Binary \n " +
+                    " 9.) Rock Paper & Scissors \n 10.)Exit ");
             choice = new Scanner(System.in).nextInt();
             switch (choice) {
                 case 1:
