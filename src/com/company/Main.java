@@ -3,6 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
+
     private static boolean isPolyndrome(String word){
         StringBuilder newWord = new StringBuilder();
 
