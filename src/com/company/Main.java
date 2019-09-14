@@ -140,26 +140,35 @@ public class Main {
         }
     }
     private static void rockPaperScissors(){
-        System.out.println("Please select your option : \n 1.) Rock \n 2.) Paper \n 3.) Scissors \n");
-        int userChoice = new Scanner(System.in).nextInt()-1;
-        caseMethod(userChoice);
-        try {
-            for (int i = 3;i>=0;i--) {
-                Thread.sleep(1000);
-                System.out.println("Please wait for " + i + " seconds for computer's choice ");
+        int userCount = 0,computerCount=0;
+        System.out.println("Best out of ? : ");
+        int bestOutOf = new Scanner(System.in).nextInt();
+        while (true) {
+            System.out.println("Please select your option : \n 1.)Rock \n 2.)Paper \n 3.)Scissors \n");
+            int userChoice = new Scanner(System.in).nextInt() - 1;
+            caseMethod(userChoice);
+            try {
+                for (int i = 3; i > 0; i--) {
+                    Thread.sleep(1000);
+                    System.out.println("Please wait for " + i + " seconds for computer's choice ");
+                }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        int randomComputerChoice = (int)(Math.random()*3);
-        caseMethod(randomComputerChoice);
-        if (caseMethod(userChoice) == caseMethod(randomComputerChoice)){
-            System.out.println("Draw");
-        }else if ((caseMethod(userChoice) - caseMethod(randomComputerChoice) == 1)
-                || (caseMethod(userChoice) - caseMethod(randomComputerChoice) == -2)){
-            System.out.println("You Win !");
-        }else {
-            System.out.println("Computer Wins !");
+            int randomComputerChoice = (int) (Math.random() * 3);
+            caseMethod(randomComputerChoice);
+            if (caseMethod(userChoice) == caseMethod(randomComputerChoice)) {
+                System.out.println("Draw Your Score : "+userCount+" Computer's Score : "+computerCount);
+            } else if ((caseMethod(userChoice) - caseMethod(randomComputerChoice) == 1)
+                    || (caseMethod(userChoice) - caseMethod(randomComputerChoice) == -2)) {
+                userCount++;
+                System.out.println("You Win ! Your Score : "+userCount+" Computer's Score : "+computerCount);
+            } else {
+                computerCount++;
+                System.out.println("Computer Wins ! Your Score : "+userCount+" Computer's Score : "+computerCount);
+            }
+            if (userCount==bestOutOf) { System.out.println("You Win !"); break; }
+            else if (computerCount == bestOutOf) { System.out.println("Computer Wins ! "); break; }
         }
     }
 
@@ -183,7 +192,7 @@ public class Main {
             System.out.println("Algorithm Console \n Please Select the operation you want to use \n" +
                     " 1.)Check Polyndrome \n 2.)Total digit of number \n 3.)Star Application \n 4.)Increase and Decrease" +
                     " \n 5.)Prime Number List \n 6.)Factorial \n 7.)Parse \n 8.)Convert to Binary \n " +
-                    " 9.) Rock Paper & Scissors \n 10.)Exit ");
+                    "9.)Rock Paper & Scissors \n 10.)Exit ");
             choice = new Scanner(System.in).nextInt();
             switch (choice) {
                 case 1:
