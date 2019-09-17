@@ -45,13 +45,6 @@ public class Main {
         }
     }
     private static void factorial(){
-        int sonuc = 1;
-        int sayi;
-        System.out.println("Define a variable.");
-        sayi = new Scanner(System.in).nextInt();
-        for (int i = 1;i<=sayi;i++) {
-            sonuc *= i;
-        }System.out.println(sonuc);
         int result = 1;
         int number;
         System.out.println("Input an integer.");
