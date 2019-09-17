@@ -125,7 +125,20 @@ public class Main {
             num++;
         }
     }
-
+    private static void fibonacciNumbers(){
+        int temp=0,total,last = 0;
+        System.out.println("How many fibonacci numbers you want to see ?");
+        int range = new Scanner(System.in).nextInt();
+        for(int i = 1;i<=range;i++){
+            if (i == 2){
+                temp++;
+            }
+            total = temp+last;
+            last = temp;
+            temp = total;
+            System.out.println(i+". fibonacci number is :"+total);
+        }
+    }
     private static void decreaseAndIncrease(){
         int num = new Scanner(System.in).nextInt();
         for (int i = num;i>0;i--){
@@ -192,7 +205,7 @@ public class Main {
             System.out.println("Algorithm Console \n Please Select the operation you want to use \n" +
                     " 1.)Check Polyndrome \n 2.)Total digit of number \n 3.)Star Application \n 4.)Increase and Decrease" +
                     " \n 5.)Prime Number List \n 6.)Factorial \n 7.)Parse \n 8.)Convert to Binary \n " +
-                    "9.)Rock Paper & Scissors \n 10.)Exit ");
+                    "9.)Fibonacci Numbers \n 10.)Rock Paper & Scissors \n 11.)Exit ");
             choice = new Scanner(System.in).nextInt();
             switch (choice) {
                 case 1:
@@ -220,14 +233,17 @@ public class Main {
                     convertToBinary();
                     break;
                 case 9:
-                    rockPaperScissors();
+                    fibonacciNumbers();
                     break;
                 case 10:
+                    rockPaperScissors();
+                    break;
+                case 11:
                     System.out.println("So long!");
                     System.exit(0);
                     break;
             }
-        }while (choice>=1 && choice<=10);
+        } while (choice >= 1 && choice <= 10);
     }
 }
 
