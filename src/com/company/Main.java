@@ -13,7 +13,6 @@ public class Main {
         }
         return word.equals(newWord.toString());
     }
-
     private  static void checkPolyndrome(){
         String word;
         Scanner scanner = new Scanner(System.in);
@@ -23,7 +22,6 @@ public class Main {
             System.out.println("Polyndrome word");
         } else System.out.println("Non polyndrome word");
     }
-
     private static void digitTotal(){
         int num,first,second,third;
         Scanner in = new Scanner(System.in);
@@ -73,7 +71,6 @@ public class Main {
         thirdChar = getString(third, thirdChar);
         return thirdChar+secondChar+firstChar;
     }
-
     private static String getString(int first, String character) {
         switch (first){
             case 1: character = "1"; break;
@@ -89,7 +86,6 @@ public class Main {
         }
         return character;
     }
-
     private static void changeToString(){
         System.out.println("Please define a variable to parse..");
         int number = new Scanner(System.in).nextInt();
@@ -184,18 +180,11 @@ public class Main {
             else if (computerCount == bestOutOf) { System.out.println("Computer Wins ! "); break; }
         }
     }
-
     private static int caseMethod(int userChoice) {
         switch (userChoice){
-            case 0:
-                System.out.println("Rock");
-                break;
-            case 1:
-                System.out.println("Paper");
-                break;
-            case 2:
-                System.out.println("Scissors");
-                break;
+            case 0: System.out.println("Rock"); break;
+            case 1: System.out.println("Paper"); break;
+            case 2: System.out.println("Scissors"); break;
         }
         return userChoice;
     }
@@ -208,43 +197,18 @@ public class Main {
                     "9.)Fibonacci Numbers \n 10.)Rock Paper & Scissors \n 11.)Exit ");
             choice = new Scanner(System.in).nextInt();
             switch (choice) {
-                case 1:
-                    checkPolyndrome();
-                    break;
-                case 2:
-                    digitTotal();
-                    break;
-                case 3:
-                    star();
-                    break;
-                case 4:
-                    decreaseAndIncrease();
-                    break;
-                case 5:
-                    primeNumberList();
-                    break;
-                case 6:
-                    factorial();
-                    break;
-                case 7:
-                    changeToString();
-                    break;
-                case 8:
-                    convertToBinary();
-                    break;
-                case 9:
-                    fibonacciNumbers();
-                    break;
-                case 10:
-                    rockPaperScissors();
-                    break;
-                case 11:
-                    System.out.println("So long!");
-                    System.exit(0);
-                    break;
+                case 1: checkPolyndrome(); break;
+                case 2: digitTotal(); break;
+                case 3: star(); break;
+                case 4: decreaseAndIncrease(); break;
+                case 5: primeNumberList(); break;
+                case 6: factorial(); break;
+                case 7: changeToString(); break;
+                case 8: convertToBinary(); break;
+                case 9: fibonacciNumbers(); break;
+                case 10: rockPaperScissors(); break;
+                case 11: System.out.println("So long!"); System.exit(0); break;
             }
         } while (choice >= 1 && choice <= 10);
     }
 }
-
-

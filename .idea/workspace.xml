@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmTraining/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmTraining/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,7 +83,10 @@
       <workItem from="1568017491817" duration="5763000" />
       <workItem from="1568056804793" duration="756000" />
       <workItem from="1568363762824" duration="8865000" />
-      <workItem from="1568483994203" duration="1305000" />
+      <workItem from="1568483994203" duration="2972000" />
+      <workItem from="1568494969088" duration="2827000" />
+      <workItem from="1568611695049" duration="2590000" />
+      <workItem from="1568704251379" duration="3891000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -105,7 +109,35 @@
       <option name="project" value="LOCAL" />
       <updated>1568485050213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
+      <created>1568485544830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568485544830</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
+      <created>1568486531623</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568486531623</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Best out of option implemented for Rock Paper &amp; Scissors game.">
+      <created>1568496387437</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568496387437</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implementing fibonacci numbers.">
+      <created>1568708472353</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568708472353</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +175,9 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -157,6 +191,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added toString method to console." />
     <MESSAGE value="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game." />
+    <MESSAGE value="Best out of option implemented for Rock Paper &amp; Scissors game." />
+    <MESSAGE value="Implementing fibonacci numbers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing fibonacci numbers." />
   </component>
 </project>
