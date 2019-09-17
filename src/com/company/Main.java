@@ -180,6 +180,29 @@ public class Main {
             else if (computerCount == bestOutOf) { System.out.println("Computer Wins ! "); break; }
         }
     }
+    private static int findGCF(int num,int num2,int num3){
+        int biggest = 0;
+        for (int i = 2; i <= num;i++){
+            if (num%i==0 && num2%i==0 && num3%i==0){
+                biggest = i;
+            }
+        }
+        return biggest;
+    }
+    private static void askGCF(){
+        System.out.println("Please input your first integer");
+        int firstNumber = new Scanner(System.in).nextInt();
+        System.out.println("Please input your second integer");
+        int secondNumber = new Scanner(System.in).nextInt();
+        System.out.println("Please input your third integer");
+        int thirdNumber = new Scanner(System.in).nextInt();
+        int greatestCommonDivisor = findGCF(firstNumber,secondNumber,thirdNumber);
+        if (findGCF(firstNumber,secondNumber,thirdNumber)==0){
+            System.out.println("Could not find common divisor.. \n");
+        }else {
+            System.out.println("Greatest Common Divisor of 3 Variables is : " + greatestCommonDivisor + "\n");
+        }
+    }
     private static int caseMethod(int userChoice) {
         switch (userChoice){
             case 0: System.out.println("Rock"); break;
@@ -188,13 +211,13 @@ public class Main {
         }
         return userChoice;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int choice;
         do {
             System.out.println("Algorithm Console \n Please Select the operation you want to use \n" +
                     " 1.)Check Polyndrome \n 2.)Total digit of number \n 3.)Star Application \n 4.)Increase and Decrease" +
                     " \n 5.)Prime Number List \n 6.)Factorial \n 7.)Parse \n 8.)Convert to Binary \n " +
-                    "9.)Fibonacci Numbers \n 10.)Rock Paper & Scissors \n 11.)Exit ");
+                    "9.)Fibonacci Numbers \n 10.)Find Greatest Common Divisor \n 11.)Rock Paper & Scissors \n 12.)Exit ");
             choice = new Scanner(System.in).nextInt();
             switch (choice) {
                 case 1: checkPolyndrome(); break;
@@ -206,8 +229,9 @@ public class Main {
                 case 7: changeToString(); break;
                 case 8: convertToBinary(); break;
                 case 9: fibonacciNumbers(); break;
-                case 10: rockPaperScissors(); break;
-                case 11: System.out.println("So long!"); System.exit(0); break;
+                case 10: askGCF(); break;
+                case 11: rockPaperScissors(); break;
+                case 12: System.out.println("So long!"); System.exit(0); break;
             }
         } while (choice >= 1 && choice <= 10);
     }
