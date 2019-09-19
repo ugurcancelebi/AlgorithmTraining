@@ -204,13 +204,70 @@ public class Main {
         }
         return userChoice;
     }
+    private static void bubbleSort(int[] num){
+        int n = num.length;
+        for (int i = 0;i<n-1;i++){
+            for(int j = 0;j<n-i-1;j++){
+                if (num[j]>num[j+1]){
+                    int temp = num[j];
+                    num[j] = num[j+1];
+                    num[j+1] = temp;
+                }
+            }
+        }
+    }
+    private static void sortingAlgorithm(){
+        System.out.println("How many integers will you sort ?");
+        int scanCount = new Scanner(System.in).nextInt();
+        int[] array = new int[scanCount];
+        for (int i = 0;i<scanCount;i++){
+            System.out.println("Define the "+ (i+1) +". integer you want to sort in : ");
+            int num = new Scanner(System.in).nextInt();
+            array[i] = num;
+        }
+        System.out.println("Values before sorting :");
+        for (int value : array) {
+            System.out.print(" "+value);
+        }
+        System.out.println("\nValues after sorting :");
+        bubbleSort(array);
+        for (int value : array){
+            System.out.print(" "+value);
+        }
+        System.out.println("\n");
+    }
+    private static int linearSearch(int[] array,int num){
+            int n = array.length;
+            for (int i = 0;i<n;i++){
+                if (array[i] == num){
+                    return i;
+                }
+            } return -1;
+    }
+    private static void searchingAlgorithm(){
+        System.out.println("How many integers you want to add ? ");
+        int count = new Scanner(System.in).nextInt();
+        int[] array = new int[count];
+        for (int i = 0;i<count;i++){
+            System.out.println("Define the "+ (i+1) +". integer you want to search in : ");
+            int num = new Scanner(System.in).nextInt();
+            array[i] = num;
+        }
+        System.out.println("What number are you searching for ? ");
+        int number = new Scanner(System.in).nextInt();
+        for (int value : array){
+            System.out.print(" "+value);
+        }
+        System.out.println("\n The number that you're searching is at : " + (linearSearch(array,number)+1) + ". value");
+    }
     public static void main(String[] args){
         int choice;
         do {
             System.out.println("Algorithm Console \n Please Select the operation you want to use \n" +
                     " 1.)Check Polyndrome \n 2.)Total digit of number \n 3.)Star Application \n 4.)Increase and Decrease" +
                     " \n 5.)Prime Number List \n 6.)Factorial \n 7.)Parse \n 8.)Convert to Binary \n " +
-                    "9.)Fibonacci Numbers \n 10.)Find Greatest Common Divisor \n 11.)Rock Paper & Scissors \n 12.)Exit ");
+                    "9.)Fibonacci Numbers \n 10.)Find Greatest Common Divisor \n 11.)Rock Paper & Scissors \n" +
+                    " 12.)Sorting Algorithm \n 13.)Searching Algorithm \n 12.)Exit ");
             choice = new Scanner(System.in).nextInt();
             switch (choice) {
                 case 1: checkPolyndrome(); break;
@@ -224,8 +281,10 @@ public class Main {
                 case 9: fibonacciNumbers(); break;
                 case 10: askGCF(); break;
                 case 11: rockPaperScissors(); break;
-                case 12: System.out.println("So long!"); System.exit(0); break;
+                case 12: sortingAlgorithm(); break;
+                case 13: searchingAlgorithm(); break;
+                case 14: System.out.println("So long!"); System.exit(0); break;
             }
-        } while (choice >= 1 && choice <= 10);
+        } while (choice >= 1 && choice <= 14);
     }
 }

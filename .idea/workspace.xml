@@ -87,7 +87,9 @@
       <workItem from="1568494969088" duration="2827000" />
       <workItem from="1568611695049" duration="2590000" />
       <workItem from="1568704251379" duration="4840000" />
-      <workItem from="1568723899808" duration="1895000" />
+      <workItem from="1568723899808" duration="3468000" />
+      <workItem from="1568796505314" duration="85000" />
+      <workItem from="1568880944529" duration="3787000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -145,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568709243222</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Greatest common divisor has been added.">
+      <created>1568725835692</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568725835692</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Duplicated factorial function removed&#10;todo:// binary converter needs to be fixed.">
+      <created>1568726746570</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1568726746570</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +218,8 @@
     <MESSAGE value="Best out of option implemented for Rock Paper &amp; Scissors game." />
     <MESSAGE value="Implementing fibonacci numbers." />
     <MESSAGE value="Inlined switch statements." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inlined switch statements." />
+    <MESSAGE value="Greatest common divisor has been added." />
+    <MESSAGE value="Duplicated factorial function removed&#10;todo:// binary converter needs to be fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Duplicated factorial function removed&#10;todo:// binary converter needs to be fixed." />
   </component>
 </project>
