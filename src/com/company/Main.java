@@ -260,14 +260,27 @@ public class Main {
         }
         System.out.println("\n The number that you're searching is at : " + (linearSearch(array,number)+1) + ". value");
     }
+    private static void modCalculator(){
+        System.out.println("What is the number that you want to take mod ?");
+        int total = new Scanner(System.in).nextInt();
+        System.out.println("What is your mod ?");
+        int param = new Scanner(System.in).nextInt();
+        for (int i = total;i>param;i-=param){
+            if ((i-param)<param){
+                System.out.println(i-param);
+            }else if ((i-param)==param){
+                System.out.println(0);
+            }
+        }
+    }
     public static void main(String[] args){
-        int choice;
+       int choice;
         do {
             System.out.println("Algorithm Console \n Please Select the operation you want to use \n" +
                     " 1.)Check Polyndrome \n 2.)Total digit of number \n 3.)Star Application \n 4.)Increase and Decrease" +
                     " \n 5.)Prime Number List \n 6.)Factorial \n 7.)Parse \n 8.)Convert to Binary \n " +
                     "9.)Fibonacci Numbers \n 10.)Find Greatest Common Divisor \n 11.)Rock Paper & Scissors \n" +
-                    " 12.)Sorting Algorithm \n 13.)Searching Algorithm \n 14.)Exit ");
+                    " 12.)Sorting Algorithm \n 13.)Searching Algorithm \n 14.)Mod Calculator \n 15.)Exit ");
             choice = new Scanner(System.in).nextInt();
             switch (choice) {
                 case 1: checkPolyndrome(); break;
@@ -283,8 +296,9 @@ public class Main {
                 case 11: rockPaperScissors(); break;
                 case 12: sortingAlgorithm(); break;
                 case 13: searchingAlgorithm(); break;
-                case 14: System.out.println("So long!"); System.exit(0); break;
+                case 14: modCalculator(); break;
+                case 15: System.out.println("So long!"); System.exit(0); break;
             }
-        } while (choice >= 1 && choice <= 14);
+        } while (choice >= 1 && choice <= 15);
     }
 }
