@@ -173,6 +173,7 @@ public class Main {
             else if (computerCount == bestOutOf) { System.out.println("Computer Wins ! "); break; }
         }
     }
+
     private static int findGCF(int num,int num2,int num3){
         int biggest = 0;
         for (int i = 2; i <= num;i++){
@@ -241,7 +242,7 @@ public class Main {
             for (int i = 0;i<n;i++){
                 if (array[i] == num){
                     return i;
-                }
+                }   
             } return -1;
     }
     private static void searchingAlgorithm(){
