@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgorithmTraining/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmTraining/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Rebase.Settings">
     <option name="ONTO" value="refs/remotes/origin/master" />
@@ -34,6 +43,7 @@
   <component name="ProjectId" id="1QSIUrJjG9fYMJ0n1fG4O0HGHUI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -90,7 +100,12 @@
       <workItem from="1568723899808" duration="3468000" />
       <workItem from="1568796505314" duration="85000" />
       <workItem from="1568880944529" duration="5127000" />
-      <workItem from="1568957914943" duration="1012000" />
+      <workItem from="1568957914943" duration="1756000" />
+      <workItem from="1568985510954" duration="1314000" />
+      <workItem from="1569156856725" duration="4839000" />
+      <workItem from="1569165301012" duration="653000" />
+      <workItem from="1569225441493" duration="2729000" />
+      <workItem from="1569244696920" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -176,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568887426193</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Mod calculator has included">
+      <created>1568959055885</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568959055885</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Test class has been added for hackerrank controls.">
+      <created>1569165344081</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1569165344081</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +283,8 @@
     <MESSAGE value="Greatest common divisor has been added." />
     <MESSAGE value="Duplicated factorial function removed&#10;todo:// binary converter needs to be fixed." />
     <MESSAGE value="Sorting and Searching algorithm has included." />
-    <option name="LAST_COMMIT_MESSAGE" value="Sorting and Searching algorithm has included." />
+    <MESSAGE value="Mod calculator has included" />
+    <MESSAGE value="Test class has been added for hackerrank controls." />
+    <option name="LAST_COMMIT_MESSAGE" value="Test class has been added for hackerrank controls." />
   </component>
 </project>

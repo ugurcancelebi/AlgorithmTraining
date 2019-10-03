@@ -242,7 +242,7 @@ public class Main {
             for (int i = 0;i<n;i++){
                 if (array[i] == num){
                     return i;
-                }   
+                }
             } return -1;
     }
     private static void searchingAlgorithm(){

@@ -5,6 +5,8 @@ import java.text.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
+import java.util.Scanner;
+
 class Test {
     // Then get the day of week from the Date based on specific locale.
     private static String findDay(int month, int day, int year) {
@@ -34,5 +36,12 @@ class Test {
         bufferedWriter.newLine();
         bufferedReader.close();
         bufferedWriter.close();
+    }private static void checkpolyndrome(){
+        Scanner sc = new Scanner(System.in);
+        String A = sc.next();
+        for (int i = A.length()-1;i>=1;i--){
+            String reversed = "";
+            reversed += A.charAt(i);
+        }
     }
 }
