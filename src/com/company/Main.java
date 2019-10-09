@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.LinkedHashSet;
 import java.util.Scanner;
 
 public class Main {
@@ -274,14 +275,30 @@ public class Main {
             }
         }
     }
+    private static void removeDuplicates(int[] arr)
+    {
+        LinkedHashSet<Integer> set = new LinkedHashSet<>();
+        for (int value : arr) set.add(value);
+        System.out.print("Removed variables are : " + set+"\n");
+    }
+    private static void duplicationRemover(){
+        System.out.println("How many integers will you add ? ");
+        int count = new Scanner(System.in).nextInt();
+        int[] arr = new int [count];
+        for (int i = 0;i<count;i++){
+            System.out.println("Enter the " +(i+1)+". variable you want to add");
+            int num = new Scanner(System.in).nextInt();
+            arr[i] = num;
+        }removeDuplicates(arr);
+    }
     public static void main(String[] args){
        int choice;
         do {
             System.out.println("Algorithm Console \n Please Select the operation you want to use \n" +
-                    " 1.)Check Polyndrome \n 2.)Total digit of number \n 3.)Star Application \n 4.)Increase and Decrease" +
-                    " \n 5.)Prime Number List \n 6.)Factorial \n 7.)Parse \n 8.)Convert to Binary \n " +
+                    " 1.)Check Polyndrome \n 2.)Total digit of number \n 3.)Star Application \n 4.)Increase and Decrease" + " \n " +
+                    "5.)Prime Number List \n 6.)Factorial \n 7.)Parse \n 8.)Convert to Binary \n " +
                     "9.)Fibonacci Numbers \n 10.)Find Greatest Common Divisor \n 11.)Rock Paper & Scissors \n" +
-                    " 12.)Sorting Algorithm \n 13.)Searching Algorithm \n 14.)Mod Calculator \n 15.)Exit ");
+                    " 12.)Sorting Algorithm \n 13.)Searching Algorithm \n 14.)Mod Calculator \n 16.)Duplication Remover \n 15.)Exit ");
             choice = new Scanner(System.in).nextInt();
             switch (choice) {
                 case 1: checkPolyndrome(); break;
@@ -298,8 +315,9 @@ public class Main {
                 case 12: sortingAlgorithm(); break;
                 case 13: searchingAlgorithm(); break;
                 case 14: modCalculator(); break;
-                case 15: System.out.println("So long!"); System.exit(0); break;
+                case 15: duplicationRemover(); break;
+                case 16: System.out.println("So long!"); System.exit(0); break;
             }
-        } while (choice >= 1 && choice <= 15);
+        } while (choice >= 1 && choice <= 16);
     }
 }
