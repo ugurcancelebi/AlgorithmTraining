@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgorithmTraining/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmTraining/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +57,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FactoryDesignPatterns">
+    <configuration name="FactoryDesignPatterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.FactoryDesignPatterns" />
+      <module name="AlgorithmTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="AlgorithmTraining" />
@@ -73,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactoryDesignPatterns" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -106,6 +117,11 @@
       <workItem from="1569165301012" duration="653000" />
       <workItem from="1569225441493" duration="2729000" />
       <workItem from="1569244696920" duration="24000" />
+      <workItem from="1570086891486" duration="300000" />
+      <workItem from="1570103601264" duration="504000" />
+      <workItem from="1570625431160" duration="1434000" />
+      <workItem from="1570702727654" duration="1376000" />
+      <workItem from="1571292957225" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -205,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569165344081</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Minus fixes">
+      <created>1570086925223</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1570086925223</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Minus fixes">
+      <created>1570087042938</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1570087042938</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +315,7 @@
     <MESSAGE value="Sorting and Searching algorithm has included." />
     <MESSAGE value="Mod calculator has included" />
     <MESSAGE value="Test class has been added for hackerrank controls." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test class has been added for hackerrank controls." />
+    <MESSAGE value="Minus fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minus fixes" />
   </component>
 </project>
