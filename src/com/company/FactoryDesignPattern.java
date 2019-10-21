@@ -31,7 +31,7 @@ abstract class AbstractFactory {
     abstract Sofa getSofa();
     abstract Chair getChair();
     abstract DIYChair getIKEAChair();
-    abstract DIYSofa getIKEASofa();
+    abstract DIYSofa getIKEASofa(); 
 }
 class FurnitureFactory extends AbstractFactory {
     @Override
