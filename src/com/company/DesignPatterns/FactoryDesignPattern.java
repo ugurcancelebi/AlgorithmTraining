@@ -1,4 +1,4 @@
-package com.company;
+package com.company.DesignPatterns;
 
 interface furnitureType {
     void draw();
@@ -24,7 +24,7 @@ class Sofa implements furnitureType {
 class Chair implements furnitureType {
     @Override
     public void draw() {
-        System.out.println("Chair built by producer"); 
+        System.out.println("Chair built by producer");
     }
 }
 abstract class AbstractFactory {

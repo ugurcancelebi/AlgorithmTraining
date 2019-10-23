@@ -1,9 +1,9 @@
-package com.company;
+package com.company.AlgorithmTraining;
 
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 
-public class Main {
+public class AlgorithmTraining {
 
     private static boolean isPolyndrome(String word){
         StringBuilder newWord = new StringBuilder();

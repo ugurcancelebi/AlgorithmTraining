@@ -1,4 +1,4 @@
-package com.company;
+package com.company.AlgorithmTraining;
 
 import java.io.*;
 import java.text.*;

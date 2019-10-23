@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Annotations/AnnotationsForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Annotations/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Identity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmTraining/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmTraining/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorithmTraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaAdvanced.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/BridgePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/BridgePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FactoryDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryDesignPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmTraining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -44,6 +53,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company.JavaAdvanced" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,13 +72,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FactoryDesignPatterns">
-    <configuration name="FactoryDesignPatterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.FactoryDesignPatterns" />
-      <module name="AlgorithmTraining" />
+  <component name="RunManager" selected="Application.BridgePattern">
+    <configuration name="BridgePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DesignPatterns.BridgePattern" />
+      <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.company.DesignPatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryDesignPatterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.FactoryDesignPatterns" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.DesignPatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,8 +100,8 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="AlgorithmTraining" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AlgorithmTraining.AlgorithmTraining" />
+      <module name="JavaAdvanced" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -83,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BridgePattern" />
         <item itemvalue="Application.FactoryDesignPatterns" />
         <item itemvalue="Application.Main" />
       </list>
@@ -122,6 +151,14 @@
       <workItem from="1570625431160" duration="1434000" />
       <workItem from="1570702727654" duration="1376000" />
       <workItem from="1571292957225" duration="46000" />
+      <workItem from="1571318277451" duration="740000" />
+      <workItem from="1571379671666" duration="4316000" />
+      <workItem from="1571396358418" duration="899000" />
+      <workItem from="1571425364583" duration="296000" />
+      <workItem from="1571640361574" duration="2595000" />
+      <workItem from="1571748040106" duration="70000" />
+      <workItem from="1571809853226" duration="1765000" />
+      <workItem from="1571811658319" duration="4193000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -235,7 +272,35 @@
       <option name="project" value="LOCAL" />
       <updated>1570087042938</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Factory Design Pattern implementation as a project feature.">
+      <created>1571318368228</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1571318368228</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Bridge pattern implementation">
+      <created>1571381954905</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1571381954906</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Bridge pattern implementation">
+      <created>1571661292105</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1571661292105</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Bridge pattern implementation">
+      <created>1571748095220</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1571748095220</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +381,8 @@
     <MESSAGE value="Mod calculator has included" />
     <MESSAGE value="Test class has been added for hackerrank controls." />
     <MESSAGE value="Minus fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minus fixes" />
+    <MESSAGE value="Factory Design Pattern implementation as a project feature." />
+    <MESSAGE value="Bridge pattern implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bridge pattern implementation" />
   </component>
 </project>

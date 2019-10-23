@@ -1,4 +1,4 @@
-package com.company;
+package com.company.DesignPatterns;
 
 abstract class Activity {
     BillingCalculator calculator1;
