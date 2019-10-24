@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Annotations/FormField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Annotations/PasswordField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Annotations/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Annotations/Validators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/DataRace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Immutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Lock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmTraining/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Annotations/Field.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JavaAdvanced/FormProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/FormProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Identity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Identity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company.JavaAdvanced.Thread" />
       <recent name="com.company.JavaAdvanced.Annotations" />
       <recent name="com.company.JavaAdvanced" />
     </key>
@@ -73,13 +69,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FormProcessor">
+  <component name="RunManager" selected="Application.DataRace">
     <configuration name="BridgePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.DesignPatterns.BridgePattern" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.DesignPatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataRace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JavaAdvanced.Thread.DataRace" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.JavaAdvanced.Thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,26 +122,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.AlgorithmTraining.AlgorithmTraining" />
-      <module name="JavaAdvanced" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AlgorithmTraining/JavaAdvanced/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataRace" />
         <item itemvalue="Application.FormProcessor" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Application.BridgePattern" />
         <item itemvalue="Application.FactoryDesignPatterns" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +179,8 @@
       <workItem from="1571811658319" duration="15795000" />
       <workItem from="1571837079458" duration="31000" />
       <workItem from="1571849386011" duration="32000" />
+      <workItem from="1571852092684" duration="154000" />
+      <workItem from="1571895164505" duration="6178000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -335,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571830156808</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Advanced Java annotations example">
+      <created>1571852200851</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1571852200851</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
