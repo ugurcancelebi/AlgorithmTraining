@@ -5,13 +5,11 @@ import java.util.Collections;
 import java.util.List;
 
 public class Immutable {
-    private static void test(Integer i){
-        synchronized (Immutable.class){
-            System.out.println(Thread.currentThread().getName() + "have been accessed.");
-            i--;
-            if (i>0) {
-                test(i);
-            }
+    private static synchronized void test(Integer i){
+        System.out.println(Thread.currentThread().getName() + "have been accessed.");
+        i--;
+        if (i>0) {
+            test(i);
         }
     }
     public static void main(String[] args) throws InterruptedException {
@@ -32,10 +30,10 @@ public class Immutable {
         this.age = age;
         this.courses = courses;
     }
-    public String getName() {
+    private String getName() {
         return name;
     }
-    public Integer getAge() {
+    private Integer getAge() {
         return age;
     }
     public List<Integer> getCourses() {
