@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="ThreadLocalRunner implementation">
+    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Lock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Immutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/ThreadLocalRunner.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalRunner">
+  <component name="RunManager" selected="Application.Lock">
     <configuration name="DataRace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.JavaAdvanced.Thread.DataRace" />
       <module name="JavaAdvanced" />
@@ -82,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.JavaAdvanced.Annotations.FormProcessor" />
+    <configuration name="Immutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JavaAdvanced.Thread.Immutable" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.JavaAdvanced.Annotations.*" />
+          <option name="PATTERN" value="com.company.JavaAdvanced.Thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Immutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.JavaAdvanced.Thread.Immutable" />
+    <configuration name="Lock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JavaAdvanced.Thread.Lock" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lock" />
         <item itemvalue="Application.ThreadLocalRunner" />
         <item itemvalue="Application.Mediator" />
         <item itemvalue="Application.Immutable" />
         <item itemvalue="Application.DataRace" />
-        <item itemvalue="Application.FormProcessor" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +187,10 @@
       <workItem from="1571837079458" duration="31000" />
       <workItem from="1571849386011" duration="32000" />
       <workItem from="1571852092684" duration="154000" />
-      <workItem from="1571895164505" duration="14360000" />
+      <workItem from="1571895164505" duration="14454000" />
+      <workItem from="1571983672463" duration="1659000" />
+      <workItem from="1571985406475" duration="995000" />
+      <workItem from="1571987553248" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -366,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571913091378</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="ThreadLocalRunner implementation">
+      <created>1571920512760</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1571920512760</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
