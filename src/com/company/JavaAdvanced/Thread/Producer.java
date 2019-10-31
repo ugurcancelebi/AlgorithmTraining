@@ -9,7 +9,7 @@ class Consumer {
      void consume(){
         if (Mediator.QUEUE.size() > 0) {
             synchronized (Mediator.LOCK) {
-                Mediator.QUEUE.poll(); 
+                Mediator.QUEUE.poll();
                 Mediator.LOCK.notify();
             }
         }else{
