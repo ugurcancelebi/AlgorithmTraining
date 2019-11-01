@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Lock.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +190,10 @@
       <workItem from="1571983672463" duration="1659000" />
       <workItem from="1571985406475" duration="995000" />
       <workItem from="1571987553248" duration="3988000" />
-      <workItem from="1572003183057" duration="588000" />
+      <workItem from="1572003183057" duration="1240000" />
+      <workItem from="1572415680833" duration="596000" />
+      <workItem from="1572419819830" duration="394000" />
+      <workItem from="1572514429698" duration="239000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -383,7 +384,28 @@
       <option name="project" value="LOCAL" />
       <updated>1571988869560</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="ThreadLock example">
+      <created>1572003782124</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1572003782124</updated>
+    </task>
+    <task id="LOCAL-00029" summary="ThreadLock example">
+      <created>1572514463885</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1572514463885</updated>
+    </task>
+    <task id="LOCAL-00030" summary="ThreadLock example">
+      <created>1572514487201</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1572514487201</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
