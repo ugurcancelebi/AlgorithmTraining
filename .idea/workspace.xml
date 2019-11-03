@@ -47,6 +47,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.HackerRankJavaQuestions" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.company.JavaAdvanced.Thread" />
       <recent name="com.company.JavaAdvanced.Annotations" />
@@ -194,6 +197,7 @@
       <workItem from="1572415680833" duration="596000" />
       <workItem from="1572419819830" duration="394000" />
       <workItem from="1572514429698" duration="239000" />
+      <workItem from="1572613872560" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -405,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572514487201</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="HackerRank Question answers added.">
+      <created>1572613957154</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1572613957154</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,6 +503,7 @@
     <MESSAGE value="Advanced Java threads example" />
     <MESSAGE value="ThreadLocalRunner implementation" />
     <MESSAGE value="ThreadLock example" />
-    <option name="LAST_COMMIT_MESSAGE" value="ThreadLock example" />
+    <MESSAGE value="HackerRank Question answers added." />
+    <option name="LAST_COMMIT_MESSAGE" value="HackerRank Question answers added." />
   </component>
 </project>

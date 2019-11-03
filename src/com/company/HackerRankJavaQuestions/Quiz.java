@@ -75,7 +75,7 @@ public class Quiz {
         int i2;
         double d2;
         String s2;
-
+ 
         i2 = scan.nextInt();
         d2 = scan.nextDouble();
         scan.nextLine();
