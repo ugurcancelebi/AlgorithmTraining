@@ -206,7 +206,7 @@ public class AlgorithmTraining {
         }
         return userChoice;
     }
-    private static void bubbleSort(int[] num){
+    private static void sortingAlgorithm(int[] num){
         int n = num.length;
         for (int i = 0;i<n-1;i++){
             for(int j = 0;j<n-i-1;j++){
@@ -218,7 +218,7 @@ public class AlgorithmTraining {
             }
         }
     }
-    private static void sortingAlgorithm(){
+    private static void bubbleSort(){
         System.out.println("How many integers will you sort ?");
         int scanCount = new Scanner(System.in).nextInt();
         int[] array = new int[scanCount];
@@ -232,19 +232,19 @@ public class AlgorithmTraining {
             System.out.print(" "+value);
         }
         System.out.println("\nValues after sorting :");
-        bubbleSort(array);
+        sortingAlgorithm(array);
         for (int value : array){
             System.out.print(" "+value);
         }
         System.out.println("\n");
     }
     private static int linearSearch(int[] array,int num){
-            int n = array.length;
-            for (int i = 0;i<n;i++){
-                if (array[i] == num){
-                    return i;
-                }
-            } return -1;
+       int n = array.length;
+       for (int i = 0;i<n;i++){
+            if (array[i] == num){
+                return i;
+            }
+       } return -1;
     }
     private static void searchingAlgorithm(){
         System.out.println("How many integers you want to add ? ");
@@ -312,7 +312,7 @@ public class AlgorithmTraining {
                 case 9: fibonacciNumbers(); break;
                 case 10: askGCF(); break;
                 case 11: rockPaperScissors(); break;
-                case 12: sortingAlgorithm(); break;
+                case 12: bubbleSort(); break;
                 case 13: searchingAlgorithm(); break;
                 case 14: modCalculator(); break;
                 case 15: duplicationRemover(); break;
