@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/Quiz.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,6 +199,10 @@
       <workItem from="1572419819830" duration="394000" />
       <workItem from="1572514429698" duration="239000" />
       <workItem from="1572613872560" duration="1028000" />
+      <workItem from="1572814504424" duration="643000" />
+      <workItem from="1572844231769" duration="7000" />
+      <workItem from="1572934993792" duration="706000" />
+      <workItem from="1573452318803" duration="848000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -416,7 +421,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572613957154</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Unnecessary space for more contribution.">
+      <created>1572814665660</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1572814665660</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Minus corrections">
+      <created>1573452474189</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1573452474189</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,6 +523,8 @@
     <MESSAGE value="ThreadLocalRunner implementation" />
     <MESSAGE value="ThreadLock example" />
     <MESSAGE value="HackerRank Question answers added." />
-    <option name="LAST_COMMIT_MESSAGE" value="HackerRank Question answers added." />
+    <MESSAGE value="Unnecessary space for more contribution." />
+    <MESSAGE value="Minus corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minus corrections" />
   </component>
 </project>

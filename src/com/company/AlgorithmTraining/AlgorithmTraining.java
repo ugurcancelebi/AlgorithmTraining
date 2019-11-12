@@ -125,7 +125,7 @@ public class AlgorithmTraining {
             }
             total = temp+last;
             last = temp;
-            temp = total;
+            temp = total; 
             System.out.println(i+". fibonacci number is :"+total);
         }
     }
