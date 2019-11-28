@@ -116,7 +116,7 @@ public class AlgorithmTraining {
         }
     }
     private static void fibonacciNumbers(){
-        int temp=0,total,last = 0; 
+        int temp=0,total,last = 0;
         System.out.println("How many fibonacci numbers you want to see ?");
         int range = new Scanner(System.in).nextInt();
         for(int i = 1;i<=range;i++){

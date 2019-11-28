@@ -19,7 +19,7 @@ public class FormProcessor {
                 Validator validator = field.getAnnotation(Validator.class);
                 result = result && validateField(data, validator.value());
             }
-        } return result;
+        } return result; 
     }
 
     private static boolean validateField(Object data, String expression) throws ScriptException {

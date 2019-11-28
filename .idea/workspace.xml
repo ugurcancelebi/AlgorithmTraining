@@ -44,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/rj_alms_agent" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -206,6 +206,11 @@
       <workItem from="1573586433626" duration="44000" />
       <workItem from="1573624920390" duration="49000" />
       <workItem from="1573624988819" duration="63000" />
+      <workItem from="1574597456168" duration="650000" />
+      <workItem from="1574683550499" duration="137000" />
+      <workItem from="1574683709376" duration="246000" />
+      <workItem from="1574749906257" duration="2404000" />
+      <workItem from="1574762227754" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -445,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573586456165</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Minus corrections">
+      <created>1574597473446</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1574597473446</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
