@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmTraining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Annotations/FormProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Annotations/FormProcessor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,6 +210,7 @@
       <workItem from="1574683709376" duration="246000" />
       <workItem from="1574749906257" duration="2404000" />
       <workItem from="1574762227754" duration="23000" />
+      <workItem from="1574920169595" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -457,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574597473446</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Minus corrections">
+      <created>1574920187933</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1574920187933</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
