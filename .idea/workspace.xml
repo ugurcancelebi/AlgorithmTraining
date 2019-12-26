@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmTraining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/Quiz.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/rj_alms_agent" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/RJ/rj_alms_agent" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -68,13 +70,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lock">
-    <configuration name="DataRace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.JavaAdvanced.Thread.DataRace" />
+  <component name="RunManager" selected="Application.AlgorithmTraining">
+    <configuration name="AlgorithmTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AlgorithmTraining.AlgorithmTraining" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.JavaAdvanced.Thread.*" />
+          <option name="PATTERN" value="com.company.AlgorithmTraining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AlgorithmTraining" />
         <item itemvalue="Application.Lock" />
         <item itemvalue="Application.ThreadLocalRunner" />
         <item itemvalue="Application.Mediator" />
         <item itemvalue="Application.Immutable" />
-        <item itemvalue="Application.DataRace" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +215,8 @@
       <workItem from="1574920169595" duration="23000" />
       <workItem from="1574923248097" duration="39000" />
       <workItem from="1574923352709" duration="665000" />
+      <workItem from="1575008871990" duration="48000" />
+      <workItem from="1577366682488" duration="584000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -473,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574923264205</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Minus corrections">
+      <created>1575008882374</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1575008882374</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

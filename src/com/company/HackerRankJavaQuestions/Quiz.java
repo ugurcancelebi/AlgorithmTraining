@@ -63,6 +63,10 @@ public class Quiz {
             }
         }
     }
+    private static boolean ifCondition(){
+        int number = Integer.MIN_VALUE;
+        return (number == -number && number != 0);
+    }
     /*
     * Print the sum of both integers on the first line, the sum of both doubles (scaled to  decimal place) on
     * the second line, and then the two concatenated strings on the third line.*/

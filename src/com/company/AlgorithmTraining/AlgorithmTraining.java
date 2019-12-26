@@ -76,7 +76,7 @@ public class AlgorithmTraining {
             case 7: character = "7"; break;
             case 8: character = "8"; break;
             case 9: character = "9"; break;
-            case 0: character = "0"; break; 
+            case 0: character = "0"; break;
         }
         return character;
     }
