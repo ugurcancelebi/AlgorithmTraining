@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/JavaExamples/Basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmTraining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/Quiz.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AlgorithmTraining">
+  <component name="RunManager" selected="Application.Basic">
     <configuration name="AlgorithmTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.AlgorithmTraining.AlgorithmTraining" />
       <module name="JavaAdvanced" />
@@ -84,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Immutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.JavaAdvanced.Thread.Immutable" />
+    <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JavaExamples.Basic" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.JavaAdvanced.Thread.*" />
+          <option name="PATTERN" value="com.company.JavaExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Basic" />
         <item itemvalue="Application.AlgorithmTraining" />
         <item itemvalue="Application.Lock" />
         <item itemvalue="Application.ThreadLocalRunner" />
         <item itemvalue="Application.Mediator" />
-        <item itemvalue="Application.Immutable" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +215,10 @@
       <workItem from="1574923248097" duration="39000" />
       <workItem from="1574923352709" duration="665000" />
       <workItem from="1575008871990" duration="48000" />
-      <workItem from="1577366682488" duration="584000" />
+      <workItem from="1577366682488" duration="1353000" />
+      <workItem from="1577425913222" duration="13000" />
+      <workItem from="1577639778773" duration="208000" />
+      <workItem from="1577641129783" duration="3965000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -484,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575008882374</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="ifStatement quiz has been added to project.">
+      <created>1577367287601</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1577367287601</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,6 +583,7 @@
     <MESSAGE value="HackerRank Question answers added." />
     <MESSAGE value="Unnecessary space for more contribution." />
     <MESSAGE value="Minus corrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minus corrections" />
+    <MESSAGE value="ifStatement quiz has been added to project." />
+    <option name="LAST_COMMIT_MESSAGE" value="ifStatement quiz has been added to project." />
   </component>
 </project>
