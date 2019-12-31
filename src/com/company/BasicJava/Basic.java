@@ -1,4 +1,4 @@
-package com.company.JavaExamples;
+package com.company.BasicJava;
 
 import com.company.AlgorithmTraining.AlgorithmTraining;
 
@@ -15,16 +15,24 @@ public class Basic {
      * </pre>
      * <li> <em> example usage </em> </li>
      */
+    static int abc;
+    static int def;
     public static void main(String[] args) {
-        System.out.println("First parameter is : " + args[0]);
-        System.out.println("Second parameter is : " + args[1]);
-        int count = javadocFunction();
+        System.out.println(calculateStaticVariable());
+        //System.out.println("First parameter is : " + args[0]);
+        //System.out.println("Second parameter is : " + args[1]);
+        System.out.println(javadocFunction());
     }
+
+    private static int calculateStaticVariable() {
+        abc = 1;
+        return ++abc;
+    }
+
     /**
      *Method used by Classes in applications
      * @author Ugurcan Celebi (github.com/uurcan)
      * @return int
-     * @exception Exception
      */
     private static int javadocFunction() {
         try {

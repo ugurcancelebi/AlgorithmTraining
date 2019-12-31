@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/JavaExamples/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructures/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructures/AbstractExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/JavaExamples/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BasicJava/Basic.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +73,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Basic">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="AbstractExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DataStructures.AbstractExample" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.DataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AlgorithmTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.AlgorithmTraining.AlgorithmTraining" />
       <module name="JavaAdvanced" />
@@ -84,11 +101,11 @@
       </method>
     </configuration>
     <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.JavaExamples.Basic" />
+      <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.Basic" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.JavaExamples.*" />
+          <option name="PATTERN" value="com.company.BasicJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,25 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mediator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.JavaAdvanced.Thread.Mediator" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DataStructures.Main" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.JavaAdvanced.Thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadLocalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.JavaAdvanced.Thread.ThreadLocalRunner" />
-      <module name="JavaAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.JavaAdvanced.Thread.*" />
+          <option name="PATTERN" value="com.company.DataStructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AbstractExample" />
         <item itemvalue="Application.Basic" />
         <item itemvalue="Application.AlgorithmTraining" />
         <item itemvalue="Application.Lock" />
-        <item itemvalue="Application.ThreadLocalRunner" />
-        <item itemvalue="Application.Mediator" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +223,9 @@
       <workItem from="1577425913222" duration="13000" />
       <workItem from="1577639778773" duration="208000" />
       <workItem from="1577641129783" duration="3965000" />
+      <workItem from="1577647153234" duration="221000" />
+      <workItem from="1577684053637" duration="18000" />
+      <workItem from="1577728311047" duration="3515000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -493,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577367287601</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Java examples from book wil be implemented from now on">
+      <created>1577647327486</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1577647327486</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,6 +598,7 @@
     <MESSAGE value="Unnecessary space for more contribution." />
     <MESSAGE value="Minus corrections" />
     <MESSAGE value="ifStatement quiz has been added to project." />
-    <option name="LAST_COMMIT_MESSAGE" value="ifStatement quiz has been added to project." />
+    <MESSAGE value="Java examples from book wil be implemented from now on" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java examples from book wil be implemented from now on" />
   </component>
 </project>

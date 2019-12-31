@@ -36,12 +36,5 @@ class Test {
         bufferedWriter.newLine();
         bufferedReader.close();
         bufferedWriter.close();
-    }private static void checkpolyndrome(){
-        Scanner sc = new Scanner(System.in);
-        String A = sc.next();
-        for (int i = A.length()-1;i>=1;i--){
-            String reversed = "";
-            reversed += A.charAt(i);
-        }
     }
 }
