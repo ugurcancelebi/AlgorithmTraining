@@ -1,7 +1,13 @@
-package com.company.DataStructures;
+package com.company.OOP;
 
 import java.util.Scanner;
-
+abstract class AbstractClass{
+    protected abstract int multiplyNums(int var1,int var2);
+    protected abstract int divideNums(int var1,int var2);
+    protected void writeResult(){
+        System.out.println("Result : ");
+    }
+}
 class AbstractExample extends AbstractClass{
     @Override
     protected int multiplyNums(int var1, int var2) {
