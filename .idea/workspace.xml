@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/BasicJava/BitShifting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/OOP/InterfaceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructures/SortingMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructures/AbstractClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructures/AbstractExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/OOP/AbstractExample.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,33 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterfaceExample">
-    <configuration name="AbstractExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.OOP.AbstractExample" />
-      <module name="JavaAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.BasicJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.Basic" />
-      <module name="JavaAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.BasicJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SortingMap">
     <configuration name="BitShifting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.BitShifting" />
       <module name="JavaAdvanced" />
@@ -139,13 +110,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortingMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DataStructures.SortingMap" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.DataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DataStructures.Test" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.DataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingMap" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.InterfaceExample" />
         <item itemvalue="Application.BitShifting" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.AbstractExample" />
-        <item itemvalue="Application.Basic" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +225,8 @@
       <workItem from="1577728311047" duration="3515000" />
       <workItem from="1577771798895" duration="43000" />
       <workItem from="1578333364622" duration="3493000" />
+      <workItem from="1578376752316" duration="642000" />
+      <workItem from="1578505128391" duration="5296000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -516,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577771826404</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Object oriented, abstract class and interface implementation">
+      <created>1578376793797</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1578376793797</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,6 +615,18 @@
     <MESSAGE value="ifStatement quiz has been added to project." />
     <MESSAGE value="Java examples from book wil be implemented from now on" />
     <MESSAGE value="Data structures impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data structures impl" />
+    <MESSAGE value="Object oriented, abstract class and interface implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object oriented, abstract class and interface implementation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/DataStructures/SortingMap.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
