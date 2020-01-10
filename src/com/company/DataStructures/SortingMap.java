@@ -32,10 +32,5 @@ public class SortingMap {
         for (String key : sortingTree.keySet()){
             System.out.print("Key : "+ sortingTree.get(key) + " Val : " + key);
         }
-        /*System.out.println("Key : + " + hashMap.keySet() + "Val :" +  hashMap.values());
-        TreeMap<String, Double> sortingTree = new TreeMap<>(hashMap);
-        for (String key: hashMap.keySet()){
-            System.out.println("Key : " + hashMap.values() + "Val : " +  key);
-        }*/
     }
 }
