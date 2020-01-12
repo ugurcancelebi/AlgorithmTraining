@@ -1,13 +1,9 @@
 package com.company.JavaAdvanced.Thread;
 
-import javax.management.MBeanServer;
-import javax.management.MalformedObjectNameException;
-import javax.management.ObjectName;
-import java.lang.management.ManagementFactory;
 import java.util.stream.IntStream;
 
 public class Lock {
-    public static void main(String[] args) throws InterruptedException, MalformedObjectNameException {
+    public static void main(String[] args) throws InterruptedException {
         Account a = new Account(1,100);
         Account b = new Account(2,100);
         Thread transferA = new Thread(()->{
@@ -23,7 +19,7 @@ public class Lock {
         System.out.println("Balance account for A " + a.getBalance());
         System.out.println("Balance account for B " + b.getBalance());
     }
-    public static void transferMoney(Account from, Account to,int amount) {
+     static void transferMoney(Account from, Account to,int amount) {
         Account first = from.getId()>to.getId()?from:to;
         Account second = to.getId()>to.getId()?to:from;
         synchronized (first) {

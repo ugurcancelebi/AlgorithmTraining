@@ -1,9 +1,6 @@
 package com.company.DataStructures;
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 class Compare implements Comparator{
     private Map<String,Double> map;
@@ -28,7 +25,7 @@ public class SortingMap {
         }
         TreeMap<String,Double> sortingTree = new TreeMap<String ,Double>(comparator);
         sortingTree.putAll(hashMap);
-        System.out.println("\nOrdered MAP :");
+        System.out.println("\n Ordered MAP :");
         for (String key : sortingTree.keySet()){
             System.out.print("Key : "+ sortingTree.get(key) + " Val : " + key);
         }

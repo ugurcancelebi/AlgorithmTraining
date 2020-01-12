@@ -21,15 +21,6 @@ public class FormProcessor {
             }
         } return result;
     }
-
-    private static boolean validateField(Object data, String expression) throws  ScriptException {
-        ScriptEngineManager manager = new ScriptEngineManager();
-        ScriptEngine engine = manager.getEngineByName("nashorn");
-        engine.put("field","ExampleWord");
-        engine.eval("var result = field "+expression + ";");
-        return (boolean) engine.get("result");
-    }
-
     private static String createForm(String className) throws ClassNotFoundException {
         Class identityForm = Class.forName(className);
         AnnotationsForm form = (AnnotationsForm) identityForm.getAnnotation(AnnotationsForm.class);
@@ -43,7 +34,13 @@ public class FormProcessor {
         result.append("</fieldset>");
         return result.toString();
     }
-
+    private static boolean validateField(Object data, String expression) throws  ScriptException {
+        ScriptEngineManager manager = new ScriptEngineManager();
+        ScriptEngine engine = manager.getEngineByName("nashorn");
+        engine.put("field","ExampleWord");
+        engine.eval("var result = field "+expression + ";");
+        return (boolean) engine.get("result");
+    }
     public static void main(String[] args) throws ClassNotFoundException, ScriptException, IllegalAccessException {
         String finalForm = FormProcessor.createForm("com.company.JavaAdvanced.Annotations.Identity");
         System.out.println(finalForm);
