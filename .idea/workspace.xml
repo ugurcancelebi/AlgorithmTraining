@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructures/Enumerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructures/JavaIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructures/ComparatorEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/ComparatorExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructures/SortingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructures/SortingMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Annotations/FormProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Annotations/FormProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/JavaAdvanced/Thread/Lock.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,13 +71,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaIterator">
-    <configuration name="Enumerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.DataStructures.Enumerator" />
+  <component name="RunManager" selected="Application.ComparatorExample">
+    <configuration name="ComparableEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DataStructures.ComparableEx" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.DataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComparatorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.DataStructures.ComparatorEx" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.DataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComparatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.HackerRankJavaQuestions.ComparatorExample" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.HackerRankJavaQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,39 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.DataStructures.SortingMap" />
-      <module name="JavaAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.DataStructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.DataStructures.Test" />
-      <module name="JavaAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.DataStructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparatorExample" />
+        <item itemvalue="Application.ComparatorEx" />
+        <item itemvalue="Application.ComparableEx" />
         <item itemvalue="Application.JavaIterator" />
         <item itemvalue="Application.FormProcessor" />
-        <item itemvalue="Application.Enumerator" />
-        <item itemvalue="Application.SortingMap" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +229,8 @@
       <workItem from="1578376752316" duration="642000" />
       <workItem from="1578505128391" duration="5296000" />
       <workItem from="1578636887710" duration="260000" />
-      <workItem from="1578837323188" duration="9999000" />
+      <workItem from="1578837323188" duration="10670000" />
+      <workItem from="1578941508325" duration="4792000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -542,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578636958800</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="JavaCollectionsFramework implementation">
+      <created>1578861287425</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1578861287426</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +617,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added toString method to console." />
     <MESSAGE value="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game." />
     <MESSAGE value="Best out of option implemented for Rock Paper &amp; Scissors game." />
     <MESSAGE value="Implementing fibonacci numbers." />
@@ -637,6 +641,7 @@
     <MESSAGE value="Data structures impl" />
     <MESSAGE value="Object oriented, abstract class and interface implementation" />
     <MESSAGE value="Java map components used in project to order list items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java map components used in project to order list items" />
+    <MESSAGE value="JavaCollectionsFramework implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaCollectionsFramework implementation" />
   </component>
 </project>
