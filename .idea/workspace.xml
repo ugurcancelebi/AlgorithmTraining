@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/DataStructures/ComparatorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/ComparatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmConsoleOptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmTraining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/BasicJava/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BasicJava/Basic.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +72,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ComparatorExample">
-    <configuration name="ComparableEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.DataStructures.ComparableEx" />
+  <component name="RunManager" selected="Application.AlgorithmConsoleOptions">
+    <configuration name="AlgorithmConsoleOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AlgorithmTraining.AlgorithmConsoleOptions" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.DataStructures.*" />
+          <option name="PATTERN" value="com.company.AlgorithmTraining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparatorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.DataStructures.ComparatorEx" />
+    <configuration name="AlgorithmTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AlgorithmTraining.AlgorithmTraining" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.DataStructures.*" />
+          <option name="PATTERN" value="com.company.AlgorithmTraining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.HackerRankJavaQuestions.ComparatorExample" />
+    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.OOP.temp" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.HackerRankJavaQuestions.*" />
+          <option name="PATTERN" value="com.company.OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.JavaAdvanced.Annotations.FormProcessor" />
+    <configuration name="tempabs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.OOP.tempabs" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.JavaAdvanced.Annotations.*" />
+          <option name="PATTERN" value="com.company.OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.DataStructures.JavaIterator" />
+    <configuration name="tempp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.OOP.tempp" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.DataStructures.*" />
+          <option name="PATTERN" value="com.company.OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ComparatorExample" />
-        <item itemvalue="Application.ComparatorEx" />
-        <item itemvalue="Application.ComparableEx" />
-        <item itemvalue="Application.JavaIterator" />
-        <item itemvalue="Application.FormProcessor" />
+        <item itemvalue="Application.AlgorithmConsoleOptions" />
+        <item itemvalue="Application.AlgorithmTraining" />
+        <item itemvalue="Application.tempabs" />
+        <item itemvalue="Application.tempp" />
+        <item itemvalue="Application.temp" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +232,11 @@
       <workItem from="1578636887710" duration="260000" />
       <workItem from="1578837323188" duration="10670000" />
       <workItem from="1578941508325" duration="4792000" />
+      <workItem from="1578981335178" duration="77000" />
+      <workItem from="1579113270745" duration="1208000" />
+      <workItem from="1579542049020" duration="4281000" />
+      <workItem from="1579584212790" duration="622000" />
+      <workItem from="1579893046617" duration="6224000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -547,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578861287426</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="JavaCollectionsFramework implementation">
+      <created>1578981393748</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1578981393748</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

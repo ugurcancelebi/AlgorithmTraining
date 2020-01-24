@@ -1,20 +1,21 @@
 package com.company.AlgorithmTraining;
 
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Scanner;
 
 public class AlgorithmTraining {
 
-    private static boolean isPolyndrome(String word){
+    private boolean isPolyndrome(String word){
         StringBuilder newWord = new StringBuilder();
-
         for (int i = 0; i < word.length();i++){
             int count = word.length();
             newWord.append(word.charAt(count - i - 1));
         }
         return word.equals(newWord.toString());
     }
-    private  static void checkPolyndrome(){
+    void checkPolyndrome(){
         String word;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please input a String");
@@ -23,7 +24,7 @@ public class AlgorithmTraining {
             System.out.println("Polyndrome word");
         } else System.out.println("Non polyndrome word");
     }
-    private static void digitTotal(){
+    void digitTotal(){
         int num,first,second,third;
         Scanner in = new Scanner(System.in);
         System.out.println("Define a variable");
@@ -33,7 +34,7 @@ public class AlgorithmTraining {
         third = (num%1000)/100;
         System.out.println((first+second+third));
     }
-    private static void star(){
+    void star(){
         int num;
         Scanner in = new Scanner(System.in);
         System.out.println("Define a variable");
@@ -45,7 +46,7 @@ public class AlgorithmTraining {
             System.out.print("\n");
         }
     }
-    private static void factorial(){
+    void factorial(){
         int result = 1;
         int number;
         System.out.println("Input an integer.");
@@ -54,7 +55,7 @@ public class AlgorithmTraining {
             result *= i;
         }System.out.println(result);
     }
-    private static String parse(int number){
+    private String parse(int number){
         int first,second,third;
         String firstChar = "",secondChar= "",thirdChar = "";
         first = number%10;
@@ -65,7 +66,7 @@ public class AlgorithmTraining {
         thirdChar = getString(third, thirdChar);
         return thirdChar+secondChar+firstChar;
     }
-    private static String getString(int first, String character) {
+    private String getString(int first, String character) {
         switch (first){
             case 1: character = "1"; break;
             case 2: character = "2"; break;
@@ -80,19 +81,19 @@ public class AlgorithmTraining {
         }
         return character;
     }
-    private static void changeToString(){
+    void changeToString(){
         System.out.println("Please define a variable to parse..");
         int number = new Scanner(System.in).nextInt();
         System.out.println("Parsed value is : '"+ parse(number)+"' debug to see resutls.");
     }
-    private static void convertToBinary(){
+    void convertToBinary(){
         int number = new Scanner(System.in).nextInt();
         StringBuilder decimalString = new StringBuilder();
         for(int i = number;i>0;i/=2){
             decimalString.append(number % 2);
         }System.out.println(decimalString);
     }
-    private static void primeNumberList(){
+    void primeNumberList(){
         int count;
         int sayi = 0;
         System.out.println("How many prime numbers do you want to see ? ");
@@ -115,7 +116,7 @@ public class AlgorithmTraining {
             num++;
         }
     }
-    private static void fibonacciNumbers(){
+    void fibonacciNumbers(){
         int temp=0,total,last = 0;
         System.out.println("How many fibonacci numbers you want to see ?");
         int range = new Scanner(System.in).nextInt();
@@ -129,7 +130,7 @@ public class AlgorithmTraining {
             System.out.println(i+". fibonacci number is :"+total);
         }
     }
-    private static void decreaseAndIncrease(){
+    void decreaseAndIncrease(){
         int num = new Scanner(System.in).nextInt();
         for (int i = num;i>0;i--){
             System.out.print(i);
@@ -142,7 +143,7 @@ public class AlgorithmTraining {
             System.out.print("\n");
         }
     }
-    private static void rockPaperScissors(){
+    void rockPaperScissors(){
         int userCount = 0,computerCount=0;
         System.out.println("Best out of ? : ");
         int bestOutOf = new Scanner(System.in).nextInt();
@@ -175,7 +176,7 @@ public class AlgorithmTraining {
         }
     }
 
-    private static int findGCF(int num,int num2,int num3){
+    private int findGCF(int num,int num2,int num3){
         int biggest = 0;
         for (int i = 2; i <= num;i++){
             if (num%i==0 && num2%i==0 && num3%i==0){
@@ -184,7 +185,7 @@ public class AlgorithmTraining {
         }
         return biggest;
     }
-    private static void askGCF(){
+    void askGCF(){
         System.out.println("Please input your first integer");
         int firstNumber = new Scanner(System.in).nextInt();
         System.out.println("Please input your second integer");
@@ -198,7 +199,7 @@ public class AlgorithmTraining {
             System.out.println("Greatest Common Divisor of 3 Variables is : " + greatestCommonDivisor + "\n");
         }
     }
-    private static int caseMethod(int userChoice) {
+    private int caseMethod(int userChoice) {
         switch (userChoice){
             case 0: System.out.println("Rock"); break;
             case 1: System.out.println("Paper"); break;
@@ -206,7 +207,7 @@ public class AlgorithmTraining {
         }
         return userChoice;
     }
-    private static void sortingAlgorithm(int[] num){
+    private void sortingAlgorithm(int[] num){
         int n = num.length;
         for (int i = 0;i<n-1;i++){
             for(int j = 0;j<n-i-1;j++){
@@ -218,7 +219,7 @@ public class AlgorithmTraining {
             }
         }
     }
-    private static void bubbleSort(){
+    void bubbleSort(){
         System.out.println("How many integers will you sort ?");
         int scanCount = new Scanner(System.in).nextInt();
         int[] array = new int[scanCount];
@@ -238,7 +239,7 @@ public class AlgorithmTraining {
         }
         System.out.println("\n");
     }
-    private static int linearSearch(int[] array,int num){
+    private int linearSearch(int[] array,int num){
        int n = array.length;
        for (int i = 0;i<n;i++){
             if (array[i] == num){
@@ -246,7 +247,7 @@ public class AlgorithmTraining {
             }
        } return -1;
     }
-    private static void searchingAlgorithm(){
+    void searchingAlgorithm(){
         System.out.println("How many integers you want to add ? ");
         int count = new Scanner(System.in).nextInt();
         int[] array = new int[count];
@@ -262,7 +263,7 @@ public class AlgorithmTraining {
         }
         System.out.println("\n The number that you're searching is at : " + (linearSearch(array,number)+1) + ". value");
     }
-    private static void modCalculator(){
+    void modCalculator(){
         System.out.println("What is the number that you want to take mod ?");
         int total = new Scanner(System.in).nextInt();
         System.out.println("What is your mod ?");
@@ -275,13 +276,29 @@ public class AlgorithmTraining {
             }
         }
     }
-    private static void removeDuplicates(int[] arr)
+    void convertToMile(){
+        System.out.println("Enter a variable to convert to mile : ");
+        double number = new Scanner(System.in).nextInt();
+        number *= 0.621;
+        System.out.println("Converted value is : " + number);
+    }
+    private double findHypotenuse(double a,double b){
+        return Math.sqrt(Math.pow(a,2)+Math.pow(b,2));
+    }
+    void funcHypotenuse(){
+        System.out.println("Please define first value of triangle");
+        double first = new Scanner(System.in).nextDouble();
+        System.out.println("Please define second value of triangle");
+        double second = new Scanner(System.in).nextDouble();
+        System.out.println("Hypotenuse of the triangle is : " + findHypotenuse(first,second));
+    }
+    private void removeDuplicates(int[] arr)
     {
         LinkedHashSet<Integer> set = new LinkedHashSet<>();
         for (int value : arr) set.add(value);
         System.out.print("Removed variables are : " + set+"\n");
     }
-    private static void duplicationRemover(){
+    void duplicationRemover(){
         System.out.println("How many integers will you add ? ");
         int count = new Scanner(System.in).nextInt();
         int[] arr = new int [count];
@@ -291,33 +308,48 @@ public class AlgorithmTraining {
             arr[i] = num;
         }removeDuplicates(arr);
     }
-    public static void main(String[] args){
-       int choice;
+    void findRootByDiscriminant(){
+        int a,b,c;
+        System.out.println("Please define 3 integer variables in a row.");
+        a = new Scanner(System.in).nextInt();
+        b = new Scanner(System.in).nextInt();
+        c = new Scanner(System.in).nextInt();
+        double disc = returnDiscriminant(a,b,c);
+        if (disc < 0){
+            System.out.println("No root element found for variable : ");
+        }else if (disc == 0){
+            double x1 = returnFirstRootForDiscriminant(a,b,c);
+            System.out.println("One root found! Value is :" + x1);
+        }else {
+            double x1 = returnFirstRootForDiscriminant(a,b,c);
+            double x2 = returnSecondRootForDiscriminant(a,b,c);
+            System.out.println("Two root found! Values are : "+ x1 + "\n" + x2);
+        }
+    }
+    private double returnSecondRootForDiscriminant(int a, int b, int c) {
+        return (b + Math.sqrt(returnDiscriminant(a,b,c)))/2*a;
+    }
+    private double returnFirstRootForDiscriminant(int a,int b,int c){
+        return (b*-1 + Math.sqrt(returnDiscriminant(a,b,c)))/2*a;
+    }
+    private double returnDiscriminant(int a,int b,int c){
+        return Math.pow(b,2)-(4*a*c);
+    }
+    void findGeometricAverage(){
+        int number;
+        List<Integer> integerList = new ArrayList<>();
         do {
-            System.out.println("Algorithm Console \n Please Select the operation you want to use \n" +
-                    " 1.)Check Polyndrome \n 2.)Total digit of number \n 3.)Star Application \n 4.)Increase and Decrease" + " \n " +
-                    "5.)Prime Number List \n 6.)Factorial \n 7.)Parse \n 8.)Convert to Binary \n " +
-                    "9.)Fibonacci Numbers \n 10.)Find Greatest Common Divisor \n 11.)Rock Paper & Scissors \n" +
-                    " 12.)Sorting Algorithm \n 13.)Searching Algorithm \n 14.)Mod Calculator \n 16.)Duplication Remover \n 15.)Exit ");
-            choice = new Scanner(System.in).nextInt();
-            switch (choice) {
-                case 1: checkPolyndrome(); break;
-                case 2: digitTotal(); break;
-                case 3: star(); break;
-                case 4: decreaseAndIncrease(); break;
-                case 5: primeNumberList(); break;
-                case 6: factorial(); break;
-                case 7: changeToString(); break;
-                case 8: convertToBinary(); break;
-                case 9: fibonacciNumbers(); break;
-                case 10: askGCF(); break;
-                case 11: rockPaperScissors(); break;
-                case 12: bubbleSort(); break;
-                case 13: searchingAlgorithm(); break;
-                case 14: modCalculator(); break;
-                case 15: duplicationRemover(); break;
-                case 16: System.out.println("So long!"); System.exit(0); break;
-            }
-        } while (choice >= 1 && choice <= 16);
+            System.out.println("Enter variable to get Average (0 to Exit)");
+            number = new Scanner(System.in).nextInt();
+            integerList.add(number);
+        } while (number != 0);
+        System.out.println("Geometric average of the value is : " + getAverage(integerList));
+    }
+    private double getAverage(List<Integer> variables){
+        int rawNumber = 1;
+        for (int i =0; i<variables.size()-1;i++) {
+            rawNumber *= variables.get(i);
+        }
+        return Math.pow(rawNumber,1/(((double)variables.size())-1));
     }
 }

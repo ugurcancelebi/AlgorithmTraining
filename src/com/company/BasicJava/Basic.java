@@ -9,11 +9,6 @@ public class Basic {
      * javadoc can be used with slash and two stars
      * @version 1.0.1_beta
      * @param args
-     * @see AlgorithmTraining#main(String[]) //check the reference function with see command
-     * <pre>
-     *     Embedded HTML codes can be also used in javadoc
-     * </pre>
-     * <li> <em> example usage </em> </li>
      */
     static int abc;
     static int def;
