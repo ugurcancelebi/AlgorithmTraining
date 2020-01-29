@@ -29,9 +29,12 @@ class AlgorithmConsoleOptions {
                 case 17: algorithmTraining.funcHypotenuse(); break;
                 case 18: algorithmTraining.findRootByDiscriminant(); break;
                 case 19: algorithmTraining.findGeometricAverage(); break;
-                case 20: System.out.println("So long!"); System.exit(0); break;
+                case 20: algorithmTraining.checkPrime(); break;
+                case 21: algorithmTraining.printNumberBackwards(); break;
+                case 22: algorithmTraining.calculatePermutation(); break;
+                case 23: System.out.println("So long!"); System.exit(0); break;
             }
-        } while (choice >= 1 && choice <= 20);
+        } while (choice >= 1 && choice <= 23);
     }
      private static String getAlgorithmOptions() {
          return (" Algorithm Console \n" +
@@ -55,6 +58,9 @@ class AlgorithmConsoleOptions {
                  " 17.)Find Hypotenuse of Triangle \n" +
                  " 18.)Find Root by Discriminant \n" +
                  " 19.)Find Geometric Average \n" +
-                 " 20.)Exit \n");
+                 " 20.)Check Prime \n" +
+                 " 21.)Print number backwards \n" +
+                 " 22.)Calculate Permutation \n" +
+                 " 23.)Exit \n");
      }
 }

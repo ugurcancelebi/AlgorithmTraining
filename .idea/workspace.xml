@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmConsoleOptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmConsoleOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmConsoleOptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmTraining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/BasicJava/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BasicJava/Basic.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.OOP.temp" />
+    <configuration name="tempabs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.OOP.tempabs" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tempabs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.OOP.tempabs" />
+    <configuration name="tempintempi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.OOP.tempintempi" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
@@ -141,10 +140,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.AlgorithmConsoleOptions" />
+        <item itemvalue="Application.tempintempi" />
         <item itemvalue="Application.AlgorithmTraining" />
         <item itemvalue="Application.tempabs" />
         <item itemvalue="Application.tempp" />
-        <item itemvalue="Application.temp" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +235,10 @@
       <workItem from="1579113270745" duration="1208000" />
       <workItem from="1579542049020" duration="4281000" />
       <workItem from="1579584212790" duration="622000" />
-      <workItem from="1579893046617" duration="6224000" />
+      <workItem from="1579893046617" duration="7521000" />
+      <workItem from="1580130599455" duration="11000" />
+      <workItem from="1580234282213" duration="719000" />
+      <workItem from="1580235033263" duration="4679000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -560,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578981393748</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Algorithm examples added into project">
+      <created>1579899437183</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1579899437183</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game." />
     <MESSAGE value="Best out of option implemented for Rock Paper &amp; Scissors game." />
     <MESSAGE value="Implementing fibonacci numbers." />
     <MESSAGE value="Inlined switch statements." />
@@ -655,6 +663,18 @@
     <MESSAGE value="Object oriented, abstract class and interface implementation" />
     <MESSAGE value="Java map components used in project to order list items" />
     <MESSAGE value="JavaCollectionsFramework implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaCollectionsFramework implementation" />
+    <MESSAGE value="Algorithm examples added into project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithm examples added into project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/OOP/tempintempi.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

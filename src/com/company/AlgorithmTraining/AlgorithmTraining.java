@@ -352,4 +352,42 @@ public class AlgorithmTraining {
         }
         return Math.pow(rawNumber,1/(((double)variables.size())-1));
     }
+    private boolean isPrime(int number){
+        for (int i = 2;i<number;i++){
+            if (number%i==0){
+                return false;
+            }
+        } return true;
+    }
+    void checkPrime(){
+        System.out.println("Please define a number to see if prime : ");
+        int number = new Scanner(System.in).nextInt();
+        if (isPrime(number))
+            System.out.println(number + " is Prime");
+        else
+            System.out.println(number + " not prime ");
+    }
+    void printNumberBackwards(){
+        System.out.println("Put an integer to print backwards : ");
+        int number = new Scanner(System.in).nextInt();
+        while (number != 0){
+            System.out.print(number%10);
+            number /= 10;
+        }
+    }
+    void calculatePermutation(){
+        System.out.println("Define an 'n' integer : ");
+        int n = new Scanner(System.in).nextInt();
+        System.out.println("Define an 'r' integer : ");
+        int r = new Scanner(System.in).nextInt();
+        int nFact = 1;
+        int rFact = 1;
+        for (int i = 1;i<=n;i++){
+            nFact*=i;
+        }
+        for (int i = 1;i<=(n-r);i++){
+            rFact*=i;
+        }
+        System.out.println("Permutation of the integer = " + (nFact/rFact));
+    }
 }
