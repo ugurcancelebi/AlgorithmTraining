@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmConsoleOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmConsoleOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/AlgorithmTraining.java" afterDir="false" />
-    </list>
+    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,6 +235,7 @@
       <workItem from="1580130599455" duration="11000" />
       <workItem from="1580234282213" duration="719000" />
       <workItem from="1580235033263" duration="4679000" />
+      <workItem from="1580276585496" duration="118000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -569,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579899437183</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Algorithm examples added into project">
+      <created>1580276617909</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1580276617909</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

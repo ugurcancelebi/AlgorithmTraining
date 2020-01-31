@@ -14,7 +14,7 @@ public class Enumerator {
     public static void main(String[] args) {
         callEnumDescription();
         callVectorEnumeration();
-        callIntegerSortingEnumeration();
+        callIntegerSortingEnumeration(); 
         callEnumVariables();
     }
     private static void callEnumDescription(){
