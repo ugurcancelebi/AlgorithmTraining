@@ -236,6 +236,7 @@
       <workItem from="1580234282213" duration="719000" />
       <workItem from="1580235033263" duration="4679000" />
       <workItem from="1580276585496" duration="118000" />
+      <workItem from="1580449573555" duration="92000" />
     </task>
     <task id="LOCAL-00001" summary="Added toString method to console.">
       <created>1568364982686</created>
@@ -573,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580276617909</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Algorithm examples added into project">
+      <created>1580449589503</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1580449589503</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
