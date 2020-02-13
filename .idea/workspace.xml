@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="" />
+    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructures/Enumerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructures/Enumerator.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,13 +240,8 @@
       <workItem from="1580235033263" duration="4679000" />
       <workItem from="1580276585496" duration="118000" />
       <workItem from="1580449573555" duration="92000" />
-    </task>
-    <task id="LOCAL-00001" summary="Added toString method to console.">
-      <created>1568364982686</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1568364982686</updated>
+      <workItem from="1580805953039" duration="99000" />
+      <workItem from="1580821114609" duration="635000" />
     </task>
     <task id="LOCAL-00002" summary="Added toString method to console.">
       <created>1568484891727</created>
@@ -581,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580449589503</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Algorithm examples added into project">
+      <created>1580805967687</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1580805967688</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
