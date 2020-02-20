@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructures/Enumerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructures/Enumerator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -242,13 +241,9 @@
       <workItem from="1580449573555" duration="92000" />
       <workItem from="1580805953039" duration="99000" />
       <workItem from="1580821114609" duration="635000" />
-    </task>
-    <task id="LOCAL-00002" summary="Added toString method to console.">
-      <created>1568484891727</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1568484891727</updated>
+      <workItem from="1581586504123" duration="43000" />
+      <workItem from="1581666343331" duration="11000" />
+      <workItem from="1581928484974" duration="82000" />
     </task>
     <task id="LOCAL-00003" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485050213</created>
@@ -586,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580805967688</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Removed redundant file">
+      <created>1581586536628</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1581586536629</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,7 +658,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Best out of option implemented for Rock Paper &amp; Scissors game." />
     <MESSAGE value="Implementing fibonacci numbers." />
     <MESSAGE value="Inlined switch statements." />
     <MESSAGE value="Greatest common divisor has been added." />
@@ -681,17 +682,7 @@
     <MESSAGE value="Java map components used in project to order list items" />
     <MESSAGE value="JavaCollectionsFramework implementation" />
     <MESSAGE value="Algorithm examples added into project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algorithm examples added into project" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/OOP/tempintempi.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Removed redundant file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant file" />
   </component>
 </project>
