@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,13 +242,7 @@
       <workItem from="1581586504123" duration="43000" />
       <workItem from="1581666343331" duration="11000" />
       <workItem from="1581928484974" duration="82000" />
-    </task>
-    <task id="LOCAL-00003" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
-      <created>1568485050213</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1568485050213</updated>
+      <workItem from="1582200256087" duration="288000" />
     </task>
     <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485544830</created>
@@ -588,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581586536629</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Redundant classes has been removed.">
+      <created>1582200324494</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1582200324494</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -658,7 +657,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementing fibonacci numbers." />
     <MESSAGE value="Inlined switch statements." />
     <MESSAGE value="Greatest common divisor has been added." />
     <MESSAGE value="Duplicated factorial function removed&#10;todo:// binary converter needs to be fixed." />
@@ -683,6 +681,7 @@
     <MESSAGE value="JavaCollectionsFramework implementation" />
     <MESSAGE value="Algorithm examples added into project" />
     <MESSAGE value="Removed redundant file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant file" />
+    <MESSAGE value="Redundant classes has been removed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Redundant classes has been removed." />
   </component>
 </project>
