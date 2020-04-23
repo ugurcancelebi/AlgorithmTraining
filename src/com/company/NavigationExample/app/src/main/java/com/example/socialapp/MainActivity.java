@@ -2,6 +2,7 @@ package com.example.socialapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
@@ -22,12 +23,18 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        activityMainBinding = DataBindingUtil.setContentView(this,R.layout.activity_main);
+        activityMainBinding.navigation.setOnNavigationItemSelectedListener(this);
+        if (savedInstanceState == null){
+            feedFragment = FeedFragment.newInstance();
+            fragmentManager.beginTransaction()
+                    .add(R.id.fragment_container, feedFragment)
+                    .commit();
+        }
     }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        Bundle bundle = new Bundle();
         switch (item.getItemId()){
             case R.id.navigation_headlines:
                 fragmentManager.beginTransaction()
@@ -35,11 +42,17 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                         .commit();
                 return true;
             case R.id.navigation_saved:
+                if (messageFragment == null){
+                    messageFragment = MessageFragment.newInstance();
+                }
                 fragmentManager.beginTransaction()
                         .replace(R.id.fragment_container,messageFragment)
                         .commit();
                 return true;
             case R.id.navigation_sources:
+                if (profileFragment == null){
+                    profileFragment = ProfileFragment.newInstance();
+                }
                 fragmentManager.beginTransaction()
                         .replace(R.id.fragment_container,profileFragment)
                         .commit();
