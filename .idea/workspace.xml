@@ -1,8 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Arrays/FindMaxProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Arrays/FindMissingNumberFromArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/META-INF/JavaAdvanced.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/META-INF/JavaAdvanced.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/AlgorithmTraining/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/Clerk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/difOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/func.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/temp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/tempabs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/tempintempi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/tempp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/androidTest/java/com/example/socialapp/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/activity/FeedDetailsActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/adapter/FeedListAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/constants/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/datasource/FeedDataFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/datasource/FeedDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/datasource/FeedViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/fragment/FeedFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/fragment/MessageFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/fragment/ProfileFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/model/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/model/CategoryVariables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/model/Feed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/model/Sources.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/network/ArticleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/network/RestApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/network/RestApiFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/utils/ApplicationUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/utils/CircleImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/utils/DateFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/utils/NetworkState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/java/com/example/socialapp/utils/Specification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/anim/fade_enter_transition.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/anim/fade_exit_transition.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/anim/item_animation_fall_down.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/anim/layout_animation_fall_down.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/anim/slide_down_animation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/anim/slide_up_animation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/application_logo_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/application_logo_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/bottom_shadow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/categories_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/facebook_button_design.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/google_button_design.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/ic_date.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/ic_headlines.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/ic_placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/ic_reaction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/ic_saved.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/ic_share.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/ic_sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/log_out.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/login_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/login_with_facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/login_with_google.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/round_white.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/shadow_effect.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/show_pass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/temp_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/drawable/top_shadow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/layout/activity_feed_details.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/layout/activity_forgot_password.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/layout/fragment_feed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/layout/fragment_message.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/layout/item_categories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/layout/item_feed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/layout/item_network_state.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/layout/main_toolbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/menu/menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/menu/menu_details.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/menu/navigation_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/app/src/test/java/com/example/socialapp/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NavigationExample/settings.gradle" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,20 +166,19 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\ucelebi\IdeaProjects\AlgorithmTraining\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1QSIUrJjG9fYMJ0n1fG4O0HGHUI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/RJ/rj_alms_agent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -55,19 +191,7 @@
       <recent name="com.company.JavaAdvanced" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.AlgorithmConsoleOptions">
+  <component name="RunManager" selected="Application.FindMissingNumberFromArray">
     <configuration name="AlgorithmConsoleOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.AlgorithmTraining.AlgorithmConsoleOptions" />
       <module name="JavaAdvanced" />
@@ -94,12 +218,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tempabs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.OOP.tempabs" />
+    <configuration name="FindMaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Arrays.FindMaxProduct" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.OOP.*" />
+          <option name="PATTERN" value="com.company.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMissingNumberFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Arrays.FindMissingNumberFromArray" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,26 +257,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tempp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.OOP.tempp" />
-      <module name="JavaAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.OOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMissingNumberFromArray" />
+        <item itemvalue="Application.FindMaxProduct" />
         <item itemvalue="Application.AlgorithmConsoleOptions" />
         <item itemvalue="Application.tempintempi" />
         <item itemvalue="Application.AlgorithmTraining" />
-        <item itemvalue="Application.tempabs" />
-        <item itemvalue="Application.tempp" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +367,7 @@
       <workItem from="1581666343331" duration="11000" />
       <workItem from="1581928484974" duration="82000" />
       <workItem from="1582200256087" duration="288000" />
+      <workItem from="1588431383704" duration="6282000" />
     </task>
     <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485544830</created>
@@ -591,7 +716,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -642,19 +767,18 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-        <option value="2" />
-      </set>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+        <entry key="2" value="TOOL_WINDOW" />
+      </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inlined switch statements." />
@@ -683,5 +807,43 @@
     <MESSAGE value="Removed redundant file" />
     <MESSAGE value="Redundant classes has been removed." />
     <option name="LAST_COMMIT_MESSAGE" value="Redundant classes has been removed." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1048" y="138" key="#xdebugger.evaluate" timestamp="1588436686207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1048" y="138" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1588436686207" />
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1588436986004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588436986004" />
+    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1588436986004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588436986004" />
+    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1588436986004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588436986004" />
+    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1588436986004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588436986004" />
+    <state width="1493" height="123" key="GridCell.Tab.1.bottom" timestamp="1588436768544">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588436768544" />
+    <state width="1493" height="123" key="GridCell.Tab.1.center" timestamp="1588436768544">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588436768544" />
+    <state width="1493" height="123" key="GridCell.Tab.1.left" timestamp="1588436768544">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588436768544" />
+    <state width="1493" height="123" key="GridCell.Tab.1.right" timestamp="1588436768544">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588436768544" />
   </component>
 </project>
