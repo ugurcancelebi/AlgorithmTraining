@@ -1,7 +1,5 @@
 package com.company.HackerRankJavaQuestions;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -21,9 +19,7 @@ public class TwoDimensionalArray {
             }
         }
     }
-
     private static final Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args) throws IOException {
         int[][] a = {
                 {0, -4 ,-6, 0, -7, -6},
