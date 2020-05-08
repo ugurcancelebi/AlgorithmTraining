@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Arrays/FindSmallestCommonNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Arrays/LowHighIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Arrays/MoveZeroesToLeft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LeetCodeJavaQuestions/AddTwoNums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/LeetCodeJavaQuestions/TwoSums.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/LeetCodeJavaQuestions/TwoSums.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/TwoDimensionalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/TwoDimensionalArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +254,8 @@
       <workItem from="1588431383704" duration="6663000" />
       <workItem from="1588517853066" duration="14237000" />
       <workItem from="1588796412746" duration="7937000" />
-      <workItem from="1588880720014" duration="6986000" />
+      <workItem from="1588880720014" duration="7611000" />
+      <workItem from="1588972414968" duration="682000" />
     </task>
     <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485544830</created>
@@ -704,38 +701,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1021" y="226" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1588886499647" />
-    <state width="1493" height="149" key="GridCell.Tab.0.bottom" timestamp="1588892081624">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1588892723238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="149" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588892081624" />
-    <state width="1493" height="149" key="GridCell.Tab.0.center" timestamp="1588892081623">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588892723238" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1588892723238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="149" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588892081623" />
-    <state width="1493" height="149" key="GridCell.Tab.0.left" timestamp="1588892081623">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588892723238" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1588892723238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="149" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588892081623" />
-    <state width="1493" height="149" key="GridCell.Tab.0.right" timestamp="1588892081624">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588892723238" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1588892723238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="149" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588892081624" />
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1588886502917">
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588892723238" />
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1588892723238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588886502917" />
-    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1588886502917">
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588892723238" />
+    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1588892723238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588886502917" />
-    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1588886502917">
+    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588892723238" />
+    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1588892723238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588886502917" />
-    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1588886502917">
+    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588892723238" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1588892723238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588886502917" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588892723238" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
