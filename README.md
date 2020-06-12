@@ -21,6 +21,7 @@
  - [x] Check number primitive<br />
  - [x] Print number backwards<br />
  - [x] Calculate permutation<br />
+ - [x] MD5 Encryption<br />
  
 ## Arrays
 - [x] Find max product<br />
