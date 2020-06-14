@@ -1,0 +1,46 @@
+''preproc
+'---------------------------------------------------------------------------------------------------------------------------------------
+' PRODUCT: ----- Loyalty Management System  ////   TEST CASE: ----- Change PIN----------------------------------------------
+'---------------------------------------------------------------------------------------------------------------------------------------
+' POINT(S) OF CONTACT:   ---- R&D/AIR/INV/SLY/LOY/CLP  - Core Loyalty Product Definition -----------------------------
+'---------------------------------------------------------------------------------------------------------------------------------------
+' TEST CASE DESCRIPTION:  Succesful change of PIN for a member
+'---------------------------------------------------------------------------------------------------------------------------------------
+
+''Initialize:
+
+def onMatch (vUniqueHashCode):
+    print "Unique Hash Code"
+    print vUniqueHashCode
+    context.global_regression.HashCode = vUniqueHashCode
+    return 0;
+
+import ALM_objects, datetime
+from utils import getWebServiceContextPath, getTargetSchema
+
+#Pax info
+if hasattr(context.global_regression, 'newFlyerID'):
+    memberID = context.global_regression.newFlyerID
+else:
+    memberID = context.global_regression.FrequentFlyer1.CardNumber
+
+context.global_regression.newPIN = "1232"
+context.global_regression.PIN = "2413"
+context.global_regression.newSecurityPIN = "1432"
+
+''End
+
+'> STEP 1: Set PIN using XML
+''include: ../../lib/Generic_Scripts/LMS Operations/SetPIN - XML.play
+
+'> STEP 2: Change PIN using XML
+''include: ../../lib/Generic_Scripts/LMS Operations/ChangePIN - XML.play
+
+'> STEP 1: Change PIN using JSON
+'include: ../../lib/Generic_Scripts/LMS Operations/ChangePIN - JSON.play
+
+'> STEP 2: Authentication using XML
+''include: ../../lib/Generic_Scripts/LMS Operations/AuthenticateMember - XML.play
+
+'> STEP 2: Authentication using JSON
+'include: ../../lib/Generic_Scripts/LMS Operations/AuthenticateMember - JSON.play
