@@ -22,7 +22,11 @@
  - [x] Print number backwards<br />
  - [x] Calculate permutation<br />
  - [x] MD5 Encryption<br />
- 
+ - [x] AES256 Decryption<br />
+ - [x] AES256 Encryption<br />
+ - [x] AES Encryption<br />
+ - [x] AES Decryption<br />
+
 ## Arrays
 - [x] Find max product<br />
 - [x]  Find missing number from array<br />
