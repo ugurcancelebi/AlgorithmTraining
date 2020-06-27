@@ -1,3 +1,7 @@
+package com.company.DataStructures;
+
+import java.util.*;
+
 public class Stack {
    private int maxSize;
    private long[] stackArray;
