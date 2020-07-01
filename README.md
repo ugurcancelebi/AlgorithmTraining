@@ -37,7 +37,8 @@
   
 ## Basics
 - [x]  Bit shifting<br />
-  
+- [x]  Line separator<br />
+
 ## Data Structures
 - [x]  Comparator<br />
 - [x]  Enumerator<br />
