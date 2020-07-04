@@ -16,10 +16,12 @@ public class LineSeparator {
             if (!line.equals("")) {
                 line = buffer.readLine();
                 System.out.println("'" + line + "',");
-            }else {
+            } else {
                 System.out.println(");");
                 break;
             }
         }
+        buffer.close();
+        inStream.close();
     }
 }
