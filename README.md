@@ -38,6 +38,7 @@
 ## Basics
 - [x]  Bit shifting<br />
 - [x]  Line separator<br />
+- [x]  TicTacToe<br />
 
 ## Data Structures
 - [x]  Comparator<br />
