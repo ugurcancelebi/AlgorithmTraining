@@ -4,13 +4,13 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class TicTacToe {
-    static char[] arr = {'1','2','3','4','5','6','7','8','9'};
+    static char[] arr = {'1','2','3','4','5','6', '7','8','9'};
     static boolean gameOver = false;
 
     private static void initArray(){
         for (int i = 0;i<9;i++){
             if (i%3 == 0 && i!= 0){
-                System.out.println();
+                System.out.print("\n");
             }
             System.out.print(arr[i]+" ");
         }
@@ -22,21 +22,25 @@ public class TicTacToe {
         Random random = new Random();
 
         while (!gameOver) {
-            int userInput = scanner.nextInt()-1;
-            if (userInput > 0 && userInput < 9) {
-                if (arr[userInput] == 'O' || arr[userInput] == 'X' )
-                    System.out.println("Place already taken ..");
-                else {
-                    arr[userInput] = 'X';
-                    int cpuInput = random.nextInt(9);
-                    while (arr[cpuInput] != 'O' && arr[cpuInput] != 'X') {
-                        arr[cpuInput] = 'O';
+            int cpuInput = random.nextInt(9);
+            int userInput = scanner.nextInt() - 1;
+            if (arr[cpuInput] != arr[userInput]) {
+                if (arr[cpuInput] != 'O' && arr[cpuInput] != 'X') {
+                    if (userInput < 9) {
+                        if (arr[userInput] != 'O' && arr[userInput] != 'X') {
+                            arr[userInput] = 'X';
+                            arr[cpuInput] = 'O';
+                            System.out.println("--------");
+                            initArray();
+                        } else {
+                            System.out.println("Place already taken ..");
+                        }
+                    } else {
+                        System.out.println("Please define input between 1-9");
                     }
                 }
             }
-            System.out.println("-------");
             checkResults();
-            initArray();
         }
     }
 
@@ -56,7 +60,7 @@ public class TicTacToe {
             if (result.equals("XXX")){
                 System.out.println("You Won !");
                 gameOver = true;
-            }else if (result.equals("OOO")){
+            } else if (result.equals("OOO")){
                 System.out.println("Computer Won");
                 gameOver = true;
             }
