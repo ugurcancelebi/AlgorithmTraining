@@ -50,8 +50,10 @@ public class TicTacToe {
                     userTurn = false;
                 }
             } else {
-                if (gameCount>=5){
-                    checkResults();
+                if (gameCount>=4){
+                    arr[userInput] = 'X';
+                    gameCount++;
+                    initArray();
                 } else {
                     userTurn = false;
                 }
@@ -78,10 +80,6 @@ public class TicTacToe {
                 break;
             } else if (result.equals("OOO")){
                 System.out.println("\nComputer Won");
-                gameOver = true;
-                break;
-            } else if(gameCount>=5){
-                System.out.println("Game Draw !");
                 gameOver = true;
                 break;
             }
