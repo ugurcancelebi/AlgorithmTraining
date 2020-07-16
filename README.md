@@ -39,6 +39,7 @@
 - [x]  Bit shifting<br />
 - [x]  Line separator<br />
 - [x]  TicTacToe<br />
+- [x]  Hangman<br />
 
 ## Data Structures
 - [x]  Comparator<br />
