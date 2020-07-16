@@ -1,13 +1,13 @@
-package com.company.BasicJava;
+package com.company.HackerRankJavaQuestions;
 import java.util.*;
 import java.util.Scanner;
 
 // Write your code here. DO NOT use an access modifier in your class declaration.
-class Hangman {
+class JavaStack {
     public static boolean isBalanced(String text){
-        
-        return true;
-    }
+          while(text.length() != (text = text.replaceAll("\\(\\)|\\[\\]|\\{\\}", "")).length());
+          return text.isEmpty();
+      }
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
