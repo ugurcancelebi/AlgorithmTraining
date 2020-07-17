@@ -1,74 +1,94 @@
-# Advanced Java
-
 ## 1. Algorithm Training :
- - [x] Check Polyndrome <br />
- - [x] Digit Total <br />
- - [x] 2D Star <br />
- - [x] Prime number list <br />
- - [x] Change to String <br />
- - [x] Convert to Binary <br />
- - [x] Fibonacci Numbers <br />
- - [x] Ask GCF (Greatest Common Factor) <br />
- - [x] Rock Paper & Scissors <br />
- - [x] Searching Algorithm (Linear) <br />
- - [x] Bubble Sort <br />
- - [x] Mod Calculator <br />
- - [x] Duplication Remover <br />
- - [x] Convert to Mile <br />
- - [x] Find hypotenuse <br />
- - [x] Find root by discriminant<br />
- - [x] Find geometric average<br />
- - [x] Check number primitive<br />
- - [x] Print number backwards<br />
- - [x] Calculate permutation<br />
- - [x] MD5 Encryption<br />
- - [x] AES256 Decryption<br />
- - [x] AES256 Encryption<br />
- - [x] AES Encryption<br />
- - [x] AES Decryption<br />
+<details> 
+ - Check Polyndrome <br />
+ - Digit Total <br />
+ - 2D Star <br />
+ - Prime number list <br />
+ - Change to String <br />
+ - Convert to Binary <br />
+ - Fibonacci Numbers <br />
+ - Ask GCF (Greatest Common Factor) <br />
+ - Rock Paper & Scissors <br />
+ - Searching Algorithm (Linear) <br />
+ - Bubble Sort <br />
+ - Mod Calculator <br />
+ - Duplication Remover <br />
+ - Convert to Mile <br />
+ - Find hypotenuse <br />
+ - Find root by discriminant<br />
+ - Find geometric average<br />
+ - Check number primitive<br />
+ - Print number backwards<br />
+ - Calculate permutation<br />
+</details>
 
+## Encyption
+<details>
+ - MD5 Encryption<br />
+ - AES256 Decryption<br />
+ - AES256 Encryption<br />
+ - AES Encryption<br />
+ - AES Decryption<br />
+</details>
+ 
 ## Arrays
-- [x] Find max product<br />
-- [x]  Find missing number from array<br />
-- [x]  Find second biggest value<br />
-- [x]  Find smallest common number<br />
-- [x]  Find lowest, highest index<br />
-- [x]  Move zeroes to left<br />
+<details>
+- Find max product<br />
+- Find missing number from array<br />
+- Find second biggest value<br />
+- Find smallest common number<br />
+- Find lowest, highest index<br />
+- Move zeroes to left<br />
+</details>
   
 ## Basics
-- [x]  Bit shifting<br />
-- [x]  Line separator<br />
-- [x]  TicTacToe<br />
-- [x]  Hangman<br />
+<details>
+- Bit shifting<br />
+- Line separator<br />
+- TicTacToe<br />
+- Hangman<br />
+</details>
 
 ## Data Structures
-- [x]  Comparator<br />
-- [x]  Enumerator<br />
-- [x]  Iterator<br />
-- [x]  Sorting Map<br />
-  
+<details>
+- Comparator<br />
+- Enumerator<br />
+- Iterator<br />
+- Sorting Map<br />
+</details>
+ 
 ## Design Patterns 
-- [x] Bridge Pattern<br />
-- [x] Factory Design Pattern<br />
-  
+<details>
+- Bridge Pattern<br />
+- Factory Design Pattern<br />
+</details>  
+
 ## HackerRank Java Questions
-- [x]  Array Rotation<br />
-- [x]  Counting Valleys<br />
-- [x]  Repated String<br />
-- [x]  Rotate Array Left<br />
-- [x]  Sock Merchant<br />
-- [x]  Two Dimensional Array<br />
-  
+<details>
+- Array Rotation<br />
+- Counting Valleys<br />
+- Repated String<br />
+- Rotate Array Left<br />
+- Sock Merchant<br />
+- Two Dimensional Array<br />
+</details>  
+
 ## LeetCode Java Questions
-- [x]  TwoSums<br />
-  
+<details>  
+- TwoSums<br />
+</details>  
+ 
 ## Java Advanced
-- [x]  Annotations<br />
-- [x]  Thread Usages<br />
+<details>  
+- Annotations<br />
+- Thread Usages<br />
+</details>  
   
 ## Object Oriented
-- [x]  Abstract Class Example<br />
-- [x]  Interface Example<br />
+<details>  
+- Abstract Class Example<br />
+- Interface Example<br />
+</details>  
   
   
   
