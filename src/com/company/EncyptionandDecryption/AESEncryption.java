@@ -1,4 +1,4 @@
-package com.company.AlgorithmTraining;
+package com.company.EncyptionandDecryption;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
@@ -8,7 +8,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 import java.util.Base64;
 
-public class AESEncyption {
+public class AESEncryption {
     private static SecretKeySpec secretKey;
     private static byte[] key;
 

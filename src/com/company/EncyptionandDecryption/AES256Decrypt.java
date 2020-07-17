@@ -1,4 +1,4 @@
-package com.company.AlgorithmTraining;
+package com.company.EncyptionandDecryption;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;

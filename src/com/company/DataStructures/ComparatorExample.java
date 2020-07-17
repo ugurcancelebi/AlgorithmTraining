@@ -1,4 +1,4 @@
-package com.company.BasicJava;
+package com.company.DataStructures;
 
 import java.util.*;
 

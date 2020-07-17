@@ -20,14 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/Compare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/DNAComplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/JavaStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/META-INF/JavaAdvanced.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/TicTacToe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/BasicJava/Hangman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/AlgorithmTraining/AES256Decrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/AlgorithmTraining/AES256Encrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/AlgorithmTraining/AESEncyption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/AlgorithmTraining/MD5Encryption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/ComparatorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/DoubleData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructures/ComparatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructures/ComparatorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EncyptionandDecryption/AES256Decrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/EncyptionandDecryption/AES256Decrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EncyptionandDecryption/AES256Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/EncyptionandDecryption/AES256Encrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EncyptionandDecryption/AESEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/EncyptionandDecryption/AESEncryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EncyptionandDecryption/MD5Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/EncyptionandDecryption/MD5Encryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/SortedSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/SortedSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +72,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company/Encyption-Decryption" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ucelebi\Documents\Celebi\AdvancedJava\src\com\company\Encyption-Decryption" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company.HackerRankJavaQuestions" />
     </key>
@@ -82,7 +90,7 @@
       <recent name="com.company.JavaAdvanced" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaStack">
+  <component name="RunManager" selected="Application.SortedSum">
     <configuration name="JavaStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.HackerRankJavaQuestions.JavaStack" />
       <module name="JavaAdvanced" />
@@ -98,6 +106,19 @@
     </configuration>
     <configuration name="LineSeparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.LineSeparator" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.HackerRankJavaQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortedSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.HackerRankJavaQuestions.SortedSum" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
@@ -150,8 +171,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedSum" />
         <item itemvalue="Application.JavaStack" />
-        <item itemvalue="Application.TicTacToe (1)" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.LineSeparator" />
         <item itemvalue="Application.StringAnagram" />
@@ -283,7 +304,9 @@
       <workItem from="1594725537740" duration="1524000" />
       <workItem from="1594838579338" duration="1537000" />
       <workItem from="1594875737914" duration="2234000" />
-      <workItem from="1594902155828" duration="9195000" />
+      <workItem from="1594902155828" duration="10750000" />
+      <workItem from="1595020227918" duration="28000" />
+      <workItem from="1595020591674" duration="5202000" />
     </task>
     <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485544830</created>
@@ -725,10 +748,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Redundant classes has been removed." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1021" y="226" key="#xdebugger.evaluate" timestamp="1594575882104">
+    <state x="1021" y="226" key="#xdebugger.evaluate" timestamp="1595024641379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="1021" y="226" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1594575882104" />
+    <state x="1021" y="226" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1595024641379" />
     <state x="762" y="0" width="780" height="830" maximized="true" key="DiffContextDialog" timestamp="1592245004576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -753,26 +776,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="224" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1594159614989" />
-    <state width="1493" height="237" key="GridCell.Tab.0.bottom" timestamp="1594929446312">
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1595025745185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755326" />
-    <state width="1493" height="237" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594929446312" />
-    <state width="1493" height="237" key="GridCell.Tab.0.center" timestamp="1594929446312">
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595025745185" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1595025745185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755326" />
-    <state width="1493" height="237" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594929446312" />
-    <state width="1493" height="237" key="GridCell.Tab.0.left" timestamp="1594929446312">
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595025745185" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1595025745184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755325" />
-    <state width="1493" height="237" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594929446312" />
-    <state width="1493" height="237" key="GridCell.Tab.0.right" timestamp="1594929446312">
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595025745184" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1595025745185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755326" />
-    <state width="1493" height="237" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594929446312" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595025745185" />
     <state width="1493" height="224" key="GridCell.Tab.1.bottom" timestamp="1594159610910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -801,10 +824,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593635397534" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593634293914">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594930433668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593634293914" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594930433668" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -839,8 +862,18 @@
           <line>52</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/SortedSum.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="a" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AdvancedJava$TicTacToe__1_.ic" NAME="TicTacToe (1) Coverage Results" MODIFIED="1594575328701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -1,4 +1,4 @@
-package com.company.AlgorithmTraining;
+package com.company.EncyptionandDecryption;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
