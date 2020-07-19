@@ -37,10 +37,10 @@ public class ArrayRotation {
 
     public static void main(String[] args) throws IOException {
         int[] arr = {1,2,3,4,5};
-        int n = 2;
+        int n = 1;
         int[] newArr = (rotLeft(arr,n));
         for (int a : newArr){
-            System.out.println(a);
+            System.out.print(a);
         }
     }
 }

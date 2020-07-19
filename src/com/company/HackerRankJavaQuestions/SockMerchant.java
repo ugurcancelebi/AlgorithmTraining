@@ -11,7 +11,7 @@ public class SockMerchant {
 
     // Complete the sockMerchant function below.
     static int sockMerchant(int n,int[] ar) {
-        HashSet<Integer> set = new HashSet<Integer>();
+        HashSet<Integer> set = new HashSet<>();
         int count = 0;
         for (int i = 0; i < n; i++) {
             int element = ar[i];

@@ -2,9 +2,9 @@ package com.company.DataStructures;
 
 import java.util.*;
 
-class Compare implements Comparator{
+class Compare1 implements Comparator{
     private Map<String,Double> map;
-    Compare(Map<String,Double> map1) {
+    Compare1(Map<String,Double> map1) {
         this.map = map1;
     }
     @Override
@@ -15,7 +15,7 @@ class Compare implements Comparator{
 public class SortingMap {
     public static void main(String[] args) {
         HashMap<String ,Double> hashMap = new HashMap<>();
-        Compare comparator = new Compare(hashMap);
+        Compare1 comparator = new Compare1(hashMap);
         hashMap.put("FirstVal",1.0);
         hashMap.put("ThirdVal",3.0);
         hashMap.put("SecondVal",2.0);
