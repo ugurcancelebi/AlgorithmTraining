@@ -2,7 +2,7 @@ package com.company.DataStructures;
 
 import java.util.*;
 
-class Comparator{
+abstract class Comparator{
     boolean compare(String text1,String text2){
         return text1.equals(text2);
     }
@@ -12,11 +12,18 @@ class Comparator{
     boolean compare(int[] arr1,int[] arr2){
       return Arrays.equals(arr1,arr2);
     }
+
+    public abstract int compare(Object o, Object t1);
 }
 class Compare {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Comparator comp = new Comparator();
+        Comparator comp = new Comparator() {
+            @Override
+            public int compare(Object o, Object t1) {
+                return 0;
+            }
+        };
 
         int testCases = Integer.parseInt(scan.nextLine());
         while(testCases-- > 0){

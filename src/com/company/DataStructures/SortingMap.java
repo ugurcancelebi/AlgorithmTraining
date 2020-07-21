@@ -2,7 +2,7 @@ package com.company.DataStructures;
 
 import java.util.*;
 
-class Compare1 implements Comparator{
+class Compare1 extends Comparator {
     private Map<String,Double> map;
     Compare1(Map<String,Double> map1) {
         this.map = map1;
@@ -23,7 +23,7 @@ public class SortingMap {
         for (String key : hashMap.keySet()){
             System.out.print("Key : " + hashMap.get(key) + " Val : " + key);
         }
-        TreeMap<String,Double> sortingTree = new TreeMap<String ,Double>(comparator);
+        TreeMap<String,Double> sortingTree = new TreeMap<String ,Double>((java.util.Comparator<? super String>) comparator);
         sortingTree.putAll(hashMap);
         System.out.println("\n Ordered MAP :");
         for (String key : sortingTree.keySet()){

@@ -20,17 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/NewYearChaos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/ArrayRotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/ArrayRotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/RepeatedString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/RepeatedString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/RotateArrayLeft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/RotateArrayLeft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructures/Compare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructures/Compare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/DataStructures/SortingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructures/SortingMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/ArrayRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/ArrayRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/Compare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructures/Compare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/RepeatedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/RepeatedString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/RotateArrayLeft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/RotateArrayLeft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/SockMerchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/SockMerchant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +81,7 @@
       <recent name="com.company.JavaAdvanced" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RotateArrayLeft">
+  <component name="RunManager" selected="Application.test">
     <configuration name="ArrayRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.HackerRankJavaQuestions.ArrayRotation" />
       <module name="JavaAdvanced" />
@@ -128,32 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.HackerRankJavaQuestions.SortedSum" />
-      <module name="JavaAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.DataStructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.TicTacToe" />
-      <module name="JavaAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.HackerRankJavaQuestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TwoDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.HackerRankJavaQuestions.TwoDimensionalArray" />
       <module name="JavaAdvanced" />
@@ -167,13 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AlgorithmTraining.test" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.AlgorithmTraining.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.RotateArrayLeft" />
         <item itemvalue="Application.RepeatedString" />
         <item itemvalue="Application.ArrayRotation" />
         <item itemvalue="Application.TwoDimensionalArray" />
-        <item itemvalue="Application.SortedSum" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +285,9 @@
       <workItem from="1594902155828" duration="10750000" />
       <workItem from="1595020227918" duration="28000" />
       <workItem from="1595020591674" duration="7045000" />
-      <workItem from="1595156074801" duration="4570000" />
+      <workItem from="1595156074801" duration="5367000" />
+      <workItem from="1595354035265" duration="7000" />
+      <workItem from="1595354368015" duration="5529000" />
     </task>
     <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485544830</created>
@@ -747,10 +729,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Redundant classes has been removed." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1021" y="226" key="#xdebugger.evaluate" timestamp="1595024641379">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1595354535135">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="1021" y="226" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1595024641379" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595354535135" />
+    <state x="847" y="205" key="#xdebugger.evaluate" timestamp="1595360269588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="847" y="205" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1595360269588" />
     <state x="762" y="0" width="780" height="830" maximized="true" key="DiffContextDialog" timestamp="1592245004576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -775,26 +761,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="224" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1594159614989" />
-    <state width="1493" height="142" key="GridCell.Tab.0.bottom" timestamp="1595193154362">
+    <state width="1493" height="94" key="GridCell.Tab.0.bottom" timestamp="1595360256646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755326" />
-    <state width="1493" height="142" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595193154362" />
-    <state width="1493" height="142" key="GridCell.Tab.0.center" timestamp="1595193154362">
+    <state width="1493" height="94" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595360256646" />
+    <state width="1493" height="94" key="GridCell.Tab.0.center" timestamp="1595360256646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755326" />
-    <state width="1493" height="142" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595193154362" />
-    <state width="1493" height="142" key="GridCell.Tab.0.left" timestamp="1595193154361">
+    <state width="1493" height="94" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595360256646" />
+    <state width="1493" height="94" key="GridCell.Tab.0.left" timestamp="1595360256646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755325" />
-    <state width="1493" height="142" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595193154361" />
-    <state width="1493" height="142" key="GridCell.Tab.0.right" timestamp="1595193154362">
+    <state width="1493" height="94" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595360256646" />
+    <state width="1493" height="94" key="GridCell.Tab.0.right" timestamp="1595360256646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755326" />
-    <state width="1493" height="142" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595193154362" />
+    <state width="1493" height="94" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595360256646" />
     <state width="1493" height="224" key="GridCell.Tab.1.bottom" timestamp="1594159610910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
