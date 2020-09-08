@@ -2,7 +2,7 @@ package com.company.DataStructures;
 
 import java.util.*;
 
-class Compare1 extends Comparator {
+class Compare1 extends Comparator<Number> {
     private Map<String,Double> map;
     Compare1(Map<String,Double> map1) {
         this.map = map1;

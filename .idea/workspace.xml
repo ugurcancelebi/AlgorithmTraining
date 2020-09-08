@@ -20,10 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Lectures/Pivot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Lectures/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/META-INF/JavaAdvanced.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/AlgorithmTraining/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Comparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Comparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/ComparatorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/ComparatorExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Compare$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Compare$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Compare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Compare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Compare1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Compare1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/DoubleData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/DoubleData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DataStructures/ComparatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructures/ComparatorExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/DataStructures/Compare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructures/Compare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/DataStructures/SortingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DataStructures/SortingMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,25 +82,26 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ucelebi\Documents\Celebi\AdvancedJava\src\com\company\Encyption-Decryption" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.company.HackerRankJavaQuestions" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.company.JavaAdvanced.Thread" />
       <recent name="com.company.JavaAdvanced.Annotations" />
       <recent name="com.company.JavaAdvanced" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.AlgorithmTraining" />
+      <recent name="com.company.HackerRankJavaQuestions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ucelebi\Documents\Celebi\AdvancedJava\src\com\company\Encyption-Decryption" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="ArrayRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.HackerRankJavaQuestions.ArrayRotation" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Pivot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lectures.Pivot" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.DataStructures.*" />
+          <option name="PATTERN" value="com.company.Lectures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.HackerRankJavaQuestions.TwoDimensionalArray" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lectures.Test" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.DataStructures.*" />
+          <option name="PATTERN" value="com.company.Lectures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Pivot" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.RotateArrayLeft" />
         <item itemvalue="Application.RepeatedString" />
-        <item itemvalue="Application.ArrayRotation" />
-        <item itemvalue="Application.TwoDimensionalArray" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +301,10 @@
       <workItem from="1595020591674" duration="7045000" />
       <workItem from="1595156074801" duration="5367000" />
       <workItem from="1595354035265" duration="7000" />
-      <workItem from="1595354368015" duration="5529000" />
+      <workItem from="1595354368015" duration="7363000" />
+      <workItem from="1595421303750" duration="61000" />
+      <workItem from="1599570706858" duration="5879000" />
+      <workItem from="1599580790149" duration="2827000" />
     </task>
     <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485544830</created>
@@ -729,18 +746,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Redundant classes has been removed." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1595354535135">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1599571131376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595354535135" />
-    <state x="847" y="205" key="#xdebugger.evaluate" timestamp="1595360269588">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599571131376" />
+    <state x="847" y="205" key="#xdebugger.evaluate" timestamp="1599580210785">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="847" y="205" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1595360269588" />
-    <state x="762" y="0" width="780" height="830" maximized="true" key="DiffContextDialog" timestamp="1592245004576">
+    <state x="847" y="205" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1599580210785" />
+    <state x="762" y="0" width="780" height="830" maximized="true" key="DiffContextDialog" timestamp="1599573731579">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="762" y="0" width="780" height="830" maximized="true" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1592245004576" />
+    <state x="762" y="0" width="780" height="830" maximized="true" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1599573731579" />
     <state x="549" y="113" key="FileChooserDialogImpl" timestamp="1594144864755">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -761,26 +778,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="224" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1594159614989" />
-    <state width="1493" height="94" key="GridCell.Tab.0.bottom" timestamp="1595360256646">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1599581666310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755326" />
-    <state width="1493" height="94" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595360256646" />
-    <state width="1493" height="94" key="GridCell.Tab.0.center" timestamp="1595360256646">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599581666310" />
+    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1599581666310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755326" />
-    <state width="1493" height="94" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595360256646" />
-    <state width="1493" height="94" key="GridCell.Tab.0.left" timestamp="1595360256646">
+    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599581666310" />
+    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1599581666310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755325" />
-    <state width="1493" height="94" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595360256646" />
-    <state width="1493" height="94" key="GridCell.Tab.0.right" timestamp="1595360256646">
+    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599581666310" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1599581666310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755326" />
-    <state width="1493" height="94" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595360256646" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599581666310" />
     <state width="1493" height="224" key="GridCell.Tab.1.bottom" timestamp="1594159610910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -809,10 +826,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593635397534" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595190243951">
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599570835918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595190243951" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599570835918" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -846,6 +863,16 @@
           <url>file://$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/SortedSum.java</url>
           <line>28</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Lectures/Pivot.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Lectures/Pivot.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

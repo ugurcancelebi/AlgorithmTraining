@@ -8,12 +8,11 @@ import java.util.*;
  * Order variables by round amount
  * Use comparator interface
  */
-class DoubleData implements Comparator<Double>{
+class DoubleData extends Comparator<Double> {
+
     @Override
-    public int compare(Double aDouble, Double t1) {
-        Double double1 = aDouble - aDouble.intValue();
-        Double double2 = t1 - t1.intValue();
-        return double1.compareTo(double2);
+    public int compare(Object o, Object t1) {
+        return 0;
     }
 }
 public class ComparatorExample {
@@ -27,7 +26,7 @@ public class ComparatorExample {
         for (Double num : doubleList){
             System.out.println(num);
         }
-        doubleList.sort(new DoubleData());
+        doubleList.sort((java.util.Comparator<? super Double>) new DoubleData());
         for (Double aDouble : doubleList) System.out.println(aDouble);
     }
 }

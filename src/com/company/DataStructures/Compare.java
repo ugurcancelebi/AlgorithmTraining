@@ -2,7 +2,7 @@ package com.company.DataStructures;
 
 import java.util.*;
 
-abstract class Comparator{
+abstract class Comparator<D extends Number> {
     boolean compare(String text1,String text2){
         return text1.equals(text2);
     }
@@ -18,7 +18,7 @@ abstract class Comparator{
 class Compare {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Comparator comp = new Comparator() {
+        Comparator<Number> comp = new Comparator<Number>() {
             @Override
             public int compare(Object o, Object t1) {
                 return 0;
