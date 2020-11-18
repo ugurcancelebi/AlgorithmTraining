@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="" />
+    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/BasicJava/NumToOrd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BasicJava/Quiz1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BasicJava/ReversePolishNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BasicJava/text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Lectures/Pivot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Lectures/Pivot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Lectures/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Lectures/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,13 +86,13 @@
       <recent name="C:\Users\ucelebi\Documents\Celebi\AdvancedJava\src\com\company\Encyption-Decryption" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Pivot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lectures.Pivot" />
+  <component name="RunManager" selected="Application.Quiz1">
+    <configuration name="NumToOrd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.NumToOrd" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lectures.*" />
+          <option name="PATTERN" value="com.company.BasicJava.text" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.HackerRankJavaQuestions.RepeatedString" />
+    <configuration name="Quiz1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.Quiz1" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.DataStructures.*" />
+          <option name="PATTERN" value="com.company.BasicJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArrayLeft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.HackerRankJavaQuestions.RotateArrayLeft" />
+    <configuration name="ReversePolishNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.ReversePolishNotation" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.DataStructures.*" />
+          <option name="PATTERN" value="com.company.BasicJava.text" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.AlgorithmTraining.test" />
+    <configuration name="text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.text" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.AlgorithmTraining.*" />
+          <option name="PATTERN" value="com.company.BasicJava.text" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Quiz1" />
+        <item itemvalue="Application.text" />
+        <item itemvalue="Application.ReversePolishNotation" />
+        <item itemvalue="Application.NumToOrd" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Pivot" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.RotateArrayLeft" />
-        <item itemvalue="Application.RepeatedString" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +295,9 @@
       <workItem from="1595354368015" duration="7363000" />
       <workItem from="1595421303750" duration="61000" />
       <workItem from="1599570706858" duration="5879000" />
-      <workItem from="1599580790149" duration="2968000" />
+      <workItem from="1599580790149" duration="3607000" />
+      <workItem from="1599639716265" duration="4000" />
+      <workItem from="1605634967801" duration="13889000" />
     </task>
     <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485544830</created>
@@ -732,82 +743,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599571131376" />
-    <state x="847" y="205" key="#xdebugger.evaluate" timestamp="1599580210785">
+    <state x="618" y="230" key="#xdebugger.evaluate" timestamp="1605639285276">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="618" y="230" key="#xdebugger.evaluate/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1605639285276" />
     <state x="847" y="205" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1599580210785" />
     <state x="762" y="0" width="780" height="830" maximized="true" key="DiffContextDialog" timestamp="1599573731579">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="762" y="0" width="780" height="830" maximized="true" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1599573731579" />
-    <state x="549" y="113" key="FileChooserDialogImpl" timestamp="1594144864755">
+    <state width="1493" height="263" key="GridCell.Tab.0.bottom" timestamp="1605702565895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="113" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594144864755" />
-    <state width="1493" height="224" key="GridCell.Tab.-1.bottom" timestamp="1594159614989">
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1605644827225" />
+    <state width="1493" height="263" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605702565895" />
+    <state width="1493" height="263" key="GridCell.Tab.0.center" timestamp="1605702565895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.-1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594159614989" />
-    <state width="1493" height="224" key="GridCell.Tab.-1.center" timestamp="1594159614989">
+    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1605644827225" />
+    <state width="1493" height="263" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605702565895" />
+    <state width="1493" height="263" key="GridCell.Tab.0.left" timestamp="1605702565895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.-1.center/0.0.1536.824@0.0.1536.824" timestamp="1594159614989" />
-    <state width="1493" height="224" key="GridCell.Tab.-1.left" timestamp="1594159614989">
+    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1605644827225" />
+    <state width="1493" height="263" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605702565895" />
+    <state width="1493" height="263" key="GridCell.Tab.0.right" timestamp="1605702565895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.-1.left/0.0.1536.824@0.0.1536.824" timestamp="1594159614989" />
-    <state width="1493" height="224" key="GridCell.Tab.-1.right" timestamp="1594159614989">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1594159614989" />
-    <state width="1493" height="262" key="GridCell.Tab.0.bottom" timestamp="1599595530414">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755326" />
-    <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599595530414" />
-    <state width="1493" height="262" key="GridCell.Tab.0.center" timestamp="1599595530413">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755326" />
-    <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599595530413" />
-    <state width="1493" height="262" key="GridCell.Tab.0.left" timestamp="1599595530412">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755325" />
-    <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599595530412" />
-    <state width="1493" height="262" key="GridCell.Tab.0.right" timestamp="1599595530414">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1594470755326" />
-    <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599595530414" />
-    <state width="1493" height="224" key="GridCell.Tab.1.bottom" timestamp="1594159610910">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594159610910" />
-    <state width="1493" height="224" key="GridCell.Tab.1.center" timestamp="1594159610910">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594159610910" />
-    <state width="1493" height="224" key="GridCell.Tab.1.left" timestamp="1594159610910">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594159610910" />
-    <state width="1493" height="224" key="GridCell.Tab.1.right" timestamp="1594159610910">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594159610910" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593375036943">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593375036943" />
-    <state x="209" y="32" key="new project wizard" timestamp="1594144878797">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="209" y="32" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594144878797" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1593635397534">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593635397534" />
+    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1605644827225" />
+    <state width="1493" height="263" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605702565895" />
     <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599570835918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
