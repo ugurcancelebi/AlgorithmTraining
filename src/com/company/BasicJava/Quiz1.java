@@ -21,13 +21,12 @@ public class Quiz1 {
         if(x < 10){
             x+=y;
         }
-        System.out.println(x);*/
+        System.out.println(x);
         String word = "defgh";
         word.replace("e","x");
         System.out.println(word);
-        int x = 42;
         System.out.println(--x == x++);
-        for (int i = 0;i<10;i+=2){
+        for (int q = 0;q<10;q+=2){
             if (i == 4){
                 continue;
             }
