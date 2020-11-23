@@ -32,16 +32,6 @@ public class Controller {
         wordList.addAll(dictionary.stream().filter(word -> word.length() == numOfLetter).collect(Collectors.toList()));
     }
 
-    /**
-     * Each play takes in one guess and implement the word families using HashMap,
-     * as suggested in the HW writeup.
-     * Each key to HashMap is basically a string (e.g. "_a_" for "bad" after guessing "a").
-     * Words that contain guessed letter will have such letter shown,
-     * and we use '_' for unknown locations
-     *
-     * @param guess User's guess letter
-     * @return whether the user got the guess right. true if guess was correct.
-     */
 
     public boolean play(char guess) {
         String temp = output;
