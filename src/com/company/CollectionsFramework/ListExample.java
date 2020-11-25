@@ -7,6 +7,7 @@ public class ListExample {
         initArrayList();
         initLinkedList();
         initVector();
+
     }
 
     private static void initVector() {
@@ -24,9 +25,9 @@ public class ListExample {
         filmler.add("Seinfeld");
         filmler.add("Fargo");
 
-        // İstediğimiz index'e eleman ekliyoruz.
+        // İstediğimiz index'e eleman ekliyoruz.C
         filmler.add(4, "Akasya Durağı");
-
+        
         System.out.print("LinkedList -> ");
         filmler.forEach(film -> System.out.print(film + " "));
     }
