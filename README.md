@@ -34,20 +34,28 @@
 - Find smallest common number<br />
 - Find lowest, highest index<br />
 - Move zeroes to left<br />
-</details>
   
 ## Basics
 - Bit shifting<br />
 - Line separator<br />
 - TicTacToe<br />
 - Hangman<br />
+- Line Separator<br />
 
 ## Data Structures
 - Comparator<br />
 - Enumerator<br />
 - Iterator<br />
 - Sorting Map<br />
- 
+- Stack<br />
+- MergeSort<br />
+
+
+## Collections Framework
+- ListExample<br />
+- SetExample<br />
+- MapExample<br />
+
 ## Design Patterns 
 - Bridge Pattern<br />
 - Factory Design Pattern<br />
@@ -59,6 +67,14 @@
 - Rotate Array Left<br />
 - Sock Merchant<br />
 - Two Dimensional Array<br />
+- New Year Chaos<br />
+- DNA Complement<br />
+- FizzBuzz<br />
+- LaptopBatteryLife<br />
+- String Anagram<br />
+- Two Dimensional Array<br />
+- Sock Merchant<br />
+- Sorted Sum<br />
 
 ## LeetCode Java Questions
 - TwoSums<br />
@@ -66,10 +82,24 @@
 ## Java Advanced
 - Annotations<br />
 - Thread Usages<br />
-  
+
+## Stream and Optional
+- OptionalBasics<br />
+- FlatMap<br />
+- ParallelStream<br />
+- StreamCollect<br />
+- StreamMapReduce<br />
+- StreamObject<br />
+- RemoveDuplicate<br />
+
 ## Object Oriented
 - Abstract Class Example<br />
 - Interface Example<br />
+
+## Games
+-Hangman<br />
+-DataChartRacer<br />
+-TicTacToe<br />
   
   
   
