@@ -24,7 +24,7 @@
  *       images and strings
  *
  ******************************************************************************/
-
+package com.company.DataRacerChart;
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Component;

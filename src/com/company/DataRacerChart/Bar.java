@@ -1,3 +1,5 @@
+package com.company.DataRacerChart;
+
 public class Bar implements Comparable<Bar> {
     private final String name;
     private final int value;

@@ -1,3 +1,5 @@
+package com.company.DataRacerChart;
+
 import java.io.*;
 import java.net.URL;
 import java.net.URLConnection;
@@ -17,7 +19,7 @@ public class BarChartRacer {
         String source = in.nextLine();
 
         //calling our barchart object
-        BarChart chart = new BarChart(title, xAxis, source);
+        com.company.DataRacerChart.BarChart chart = new BarChart(title, xAxis, source);
 
         //create window, set width and height
         StdDraw.enableDoubleBuffering();
