@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -305,6 +303,7 @@
       <workItem from="1606590399326" duration="5000" />
       <workItem from="1606648929774" duration="214000" />
       <workItem from="1606675800515" duration="20000" />
+      <workItem from="1607450411867" duration="313000" />
     </task>
     <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485544830</created>
