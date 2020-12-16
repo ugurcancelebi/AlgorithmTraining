@@ -39,7 +39,6 @@
 - Bit shifting<br />
 - Line separator<br />
 - TicTacToe<br />
-- Hangman<br />
 - Line Separator<br />
 
 ## Data Structures
@@ -97,8 +96,6 @@
 - Interface Example<br />
 
 ## Games
--Hangman<br />
--DataChartRacer<br />
 -TicTacToe<br />
   
   
