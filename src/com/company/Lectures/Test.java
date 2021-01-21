@@ -4,15 +4,31 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Test {
+
+    public static void main(String[] args) throws FileNotFoundException {
+        if (true == false) { //Some basic trick in JAVA \u000a\u007d\u007b
+            System.out.println("true is false!");
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     static int[] mArray;
     static int[] tArray;
     static int totalMSum;
     static int totalTSum;
-
-    public static void main(String[] args) throws FileNotFoundException {
-        readVal();
-        System.out.println("Sum of all values : " + sumAllValues());
-    }
     private static void readVal() throws FileNotFoundException {
         int index = 0;
         File file = new File("input1.txt");
