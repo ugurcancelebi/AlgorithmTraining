@@ -20,44 +20,149 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/MyArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/Quiz3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/BattleShipOOP.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/Battleship.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/BattleshipGame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/Cruiser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/Destroyer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/EmptySea.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/Ocean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/RecursiveFunc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/Ship.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/Submarine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/UnitTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Lectures/OptimizationFormula.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BasicJava/MyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BasicJava/Quiz3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BasicJava/Quiz4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BattleShipOOP.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BattleShipOOP/BattleShipOOP.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BattleShipOOP/Battleship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BattleShipOOP/BattleshipGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BattleShipOOP/Cruiser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BattleShipOOP/Destroyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BattleShipOOP/EmptySea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BattleShipOOP/Ocean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BattleShipOOP/RecursiveFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BattleShipOOP/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BattleShipOOP/Submarine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BattleShipOOP/UnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Lectures/OptimizationFormula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/ConvertStringByWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/JavaCapitalized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AlgorithmTraining/PharantesisBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BasicJava/Quiz5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BasicJava/Quiz6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/OOP/Example1/ClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/OOP/Example1/ClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/OOP/Example1/ClassC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/OOP/Example1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/OOP/Example2/IPonderable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/OOP/Example2/Item1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/OOP/Example2/Item2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/OOP/Example2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaAdvanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaAdvanced.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/AlgorithmTraining/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/AlgorithmTraining/PlayHangman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Stream/RemoveDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Stream/RemoveDuplicate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Lectures/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Lectures/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lectures/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lectures/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaAdvanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPlayground.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/AlgorithmTraining/AlgorithmConsoleOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/AlgorithmTraining/AlgorithmTraining.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Arrays/FindMaxProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Arrays/FindMissingNumberFromArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Arrays/FindSecondBiggestValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Arrays/FindSmallestCommonNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Arrays/LowHighIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Arrays/MoveZeroesToLeft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/Basic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/BitShifting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/LineSeparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/MyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/PaperSheet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/Quiz1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/Quiz2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/Quiz3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/Quiz4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/Rating.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/TicTacToe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BasicJava/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/Battleship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/BattleshipGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/Cruiser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/Destroyer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/EmptySea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/Ocean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/RecursiveFunc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/Submarine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/BattleShipOOP/UnitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/CollectionsFramework/ListExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/CollectionsFramework/SetExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/ComparableEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Comparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/ComparatorEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/ComparatorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Compare$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Compare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Compare1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/DoubleData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Enumerator$Companies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Enumerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/JavaIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/ProductComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/ProductData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/SortingMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DataStructures/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/Activity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/BillingCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/BridgePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/Chair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/DIYChair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/DIYSofa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/Exchange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/FactoryDesignPatterns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/FactoryProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/FurnitureFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/RBB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/Redemption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/RevB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/Sofa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/DesignPatterns/furnitureType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/EncyptionandDecryption/AES256Decrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/EncyptionandDecryption/AES256Encrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/EncyptionandDecryption/AESEncryption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/EncyptionandDecryption/MD5Encryption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/ArrayRotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/CountingValleys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/DNAComplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/FizzBuzz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/JavaStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/LaptopBatteryLife.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/NewYearChaos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/RepeatedString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/RotateArrayLeft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/SockMerchant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/SortedSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/StringAnagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/HackerRankJavaQuestions/TwoDimensionalArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Annotations/AnnotationsForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Annotations/FormField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Annotations/FormProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Annotations/Identity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Annotations/PasswordField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Annotations/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Annotations/Validators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Optional/CreateOptional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Stream/FlatMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Stream/ParallelStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Stream/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Stream/RemoveDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Stream/StreamCollect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Stream/StreamMapReduce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Stream/StreamObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Stream/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Thread/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Thread/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Thread/DataRace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Thread/Immutable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Thread/Lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Thread/Mediator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Thread/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Thread/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Thread/StatusMBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Thread/ThreadLocalRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/JavaAdvanced/Thread/Waiter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Lectures/OptimizationFormula.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Lectures/Pivot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/Lectures/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/LeetCodeJavaQuestions/AddTwoNums$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/LeetCodeJavaQuestions/AddTwoNums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/LeetCodeJavaQuestions/TwoSums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/AbstractClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/AbstractExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/Abstraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/BiggerData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/InterfaceExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/TestAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/TestInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/calculateImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/com/company/OOP/calculateInterface.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,13 +230,13 @@
       <recent name="com.company.JavaAdvanced" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Quiz4">
-    <configuration name="MyArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.MyArray" />
-      <module name="JavaAdvanced" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="ConvertStringByWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AlgorithmTraining.ConvertStringByWord" />
+      <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.BasicJava.*" />
+          <option name="PATTERN" value="com.company.AlgorithmTraining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +244,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quiz3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.Quiz3" />
-      <module name="JavaAdvanced" />
+    <configuration name="JavaCapitalized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AlgorithmTraining.JavaCapitalized" />
+      <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.BasicJava.*" />
+          <option name="PATTERN" value="com.company.AlgorithmTraining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +257,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quiz4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.Quiz4" />
-      <module name="JavaAdvanced" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.OOP.Example2.Main" />
+      <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.BasicJava.*" />
+          <option name="PATTERN" value="com.company.OOP.Example2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lectures.Test" />
-      <module name="JavaAdvanced" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.OOP.Example1.Main" />
+      <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lectures.*" />
+          <option name="PATTERN" value="com.company.OOP.Example1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +283,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.Tester" />
-      <module name="JavaAdvanced" />
+    <configuration name="PharantesisBalance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AlgorithmTraining.PharantesisBalance" />
+      <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.BasicJava.*" />
+          <option name="PATTERN" value="com.company.AlgorithmTraining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Quiz4" />
-        <item itemvalue="Application.MyArray" />
-        <item itemvalue="Application.Quiz3" />
-        <item itemvalue="Application.Tester" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.ConvertStringByWord" />
+        <item itemvalue="Application.PharantesisBalance" />
+        <item itemvalue="Application.JavaCapitalized" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -364,6 +469,11 @@
       <workItem from="1611137705634" duration="201000" />
       <workItem from="1611137989152" duration="609000" />
       <workItem from="1611146127137" duration="1196000" />
+      <workItem from="1611258099506" duration="729000" />
+      <workItem from="1611560618289" duration="10000" />
+      <workItem from="1612166357335" duration="6854000" />
+      <workItem from="1612213393252" duration="6000" />
+      <workItem from="1612293415473" duration="8771000" />
     </task>
     <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485544830</created>
@@ -805,17 +915,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Redundant classes has been removed." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1608231746026">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1612296829419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="718" y="-931" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1606035773940" />
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1608231746026" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1608145696458" />
-    <state x="1048" y="47" width="488" height="422" key="#xdebugger.evaluate" timestamp="1611134208919">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1612296829419" />
+    <state x="1048" y="47" width="488" height="422" key="#xdebugger.evaluate" timestamp="1612300000972">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1048" y="47" width="488" height="422" key="#xdebugger.evaluate/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1608234268171" />
-    <state x="1048" y="47" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1611134208919" />
+    <state x="1048" y="47" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1612300000972" />
     <state x="93" y="93" width="1350" height="638" maximized="true" key="DiffContextDialog" timestamp="1611135809054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -825,43 +935,47 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606675816509" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608144098924" />
-    <state width="1493" height="168" key="GridCell.Tab.0.bottom" timestamp="1611137338294">
+    <state width="1493" height="481" key="GridCell.Tab.0.bottom" timestamp="1612301110899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="267" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1606038260921" />
     <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610139730373" />
-    <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611137338294" />
-    <state width="1493" height="168" key="GridCell.Tab.0.center" timestamp="1611137338294">
+    <state width="1493" height="481" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612301110899" />
+    <state width="1493" height="481" key="GridCell.Tab.0.center" timestamp="1612301110899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="267" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1606038260921" />
     <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610139730373" />
-    <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611137338294" />
-    <state width="1493" height="168" key="GridCell.Tab.0.left" timestamp="1611137338294">
+    <state width="1493" height="481" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612301110899" />
+    <state width="1493" height="481" key="GridCell.Tab.0.left" timestamp="1612301110899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="267" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1606038260921" />
     <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610139730373" />
-    <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611137338294" />
-    <state width="1493" height="168" key="GridCell.Tab.0.right" timestamp="1611137338294">
+    <state width="1493" height="481" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612301110899" />
+    <state width="1493" height="481" key="GridCell.Tab.0.right" timestamp="1612301110899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="267" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1606038260921" />
     <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610139730373" />
-    <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611137338294" />
+    <state width="1493" height="481" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612301110899" />
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1608309975267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1608309975267" />
-    <state x="478" y="147" width="579" height="554" key="find.popup" timestamp="1611132586833">
+    <state x="478" y="147" width="579" height="554" key="find.popup" timestamp="1612293427831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="478" y="147" width="579" height="530" key="find.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1608238181072" />
-    <state x="478" y="147" width="579" height="554" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1611132586833" />
+    <state x="478" y="147" width="579" height="554" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1612293427831" />
     <state x="226" y="67" width="1118" height="722" key="new project wizard" timestamp="1605766570881">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="226" y="67" width="1118" height="722" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1605766570881" />
+    <state x="475" y="169" key="refactoring.ChangeSignatureDialog" timestamp="1612295582379">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="169" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1612295582379" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1610626087264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -924,6 +1038,16 @@
           <url>file://$PROJECT_DIR$/src/com/company/Lectures/OptimizationFormula.java</url>
           <line>23</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/BasicJava/Quiz5.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/AlgorithmTraining/JavaCapitalized.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,0 +1,108 @@
+pipeline { 
+
+  agent any 
+  environment{
+    MY_FOLDER = '/var/lib/jenkins/tts/NP'
+    REPORT_FOLDER = '/var/lib/jenkins/tts/tts_report'
+    HOST_FOLDER = '/docker/jenkins_data/tts/NP'
+  }
+
+  stages {
+
+    stage('Pull TTS scripts from GIT REPO') {
+
+
+
+        steps {
+
+            sh '''
+            if [ -f "${MY_FOLDER}" ]; then
+                echo "${MY_FOLDER} already exists"
+            else
+                sudo mkdir -p ${MY_FOLDER}
+                cd ${MY_FOLDER}/..
+
+                sudo chmod 777 -R .
+                echo  "${MY_FOLDER} created"
+            fi
+            '''
+
+            dir(MY_FOLDER) {
+
+              git branch: 'np', changelog: false, credentialsId: 'user_amadeus', poll: false,
+                  url: 'https://rndwww.nce.amadeus.net/git/scm/lm/amadeus-loyalty-management.git'
+ 
+            } 
+
+        }       
+
+    } 
+    
+
+
+    stage('Run TTS container and TTS script') { 
+
+      steps { 
+
+        sh ''' 
+        pwd
+        
+        docker -H tcp://10.65.128.179:4243 run -u root --name tts --rm -v ${HOST_FOLDER}/AMADEUS\\ LOYALTY\\ MANAGEMENT:/app dockerhub.rnd.amadeus.net:5002/tts/ttserver:2.18.9.1 /opt/tts/scripts/TTServer.sh -s run.py -v REG_PATH=".":REG_ENV="DEV":REG_FOLDER="LMS":REG_KEYWORDS=regression,regression2
+
+        ''' 
+
+      } 
+
+    } 
+    
+
+stage('Pull TTS-Report scripts from GIT REPO') { 
+        
+
+        
+        steps { 
+            
+            sh '''
+            if [ -f "${REPORT_FOLDER}" ]; then
+                echo "${REPORT_FOLDER} already exists"
+            else
+                sudo mkdir -p ${REPORT_FOLDER}
+                cd ${REPORT_FOLDER}/..
+                sudo chmod 777 -R .
+                echo  "${REPORT_FOLDER} created"
+            fi
+            '''
+
+            dir(REPORT_FOLDER) {
+
+              git branch: 'master', changelog: false, credentialsId: 'user_amadeus', poll: false, 
+                  url: 'https://rndwww.nce.amadeus.net/git/scm/lm/tts_report_util.git'
+ 
+            } 
+
+            
+            sh '''
+            python ${REPORT_FOLDER}/report.py -i ${MY_FOLDER}/AMADEUS\\ LOYALTY\\ MANAGEMENT/report.xml -o ${MY_FOLDER}/AMADEUS\\ LOYALTY\\ MANAGEMENT/reportmail.html -j ''
+            echo "TTS Report is generated"
+            #cp ${MY_FOLDER}/AMADEUS\\ LOYALTY\\ MANAGEMENT/reportmail.html /var/jenkins_home/workspace/LMS_TTS/\\$\\{MY_FOLDER\\}/AMADEUS\\ LOYALTY\\ MANAGEMENT
+            '''
+            
+            publishHTML target: [
+                allowMissing: false,
+                alwaysLinkToLastBuild: false,
+                keepAll: true,
+                reportDir: MY_FOLDER+'/AMADEUS LOYALTY MANAGEMENT/',
+                reportFiles: 'reportmail.html',
+                reportName: 'TTS_Run_Report'
+              ]            
+    
+        }       
+
+    } 
+
+
+  
+
+  } 
+
+} 
