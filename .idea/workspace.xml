@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/OOP/Example6/MeansOfMovement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/OOP/Example6/MeansOfMovement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/BasicJava/Quiz7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BasicJava/Quiz7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CollectionsFramework/ExcelComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CollectionsFramework/ExcelComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/OOP/Example6/MeansOfMovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/OOP/Example6/MeansOfMovement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/OOP/Example7/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/OOP/Example7/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/OOP/example8/FunctionalCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/OOP/example8/FunctionalCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/OOP/example8/ScreenerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/OOP/example8/ScreenerData.java" afterDir="false" />
-    </list>
+    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -350,6 +341,7 @@
       <workItem from="1614717068757" duration="653000" />
       <workItem from="1614787154527" duration="2760000" />
       <workItem from="1614799768421" duration="93000" />
+      <workItem from="1615929167560" duration="437000" />
     </task>
     <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485544830</created>
