@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="" />
+    <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/JavaGUI/Form1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/OOP/Example10/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/META-INF/JavaPlayground.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/OOP/example9/Qwiz9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/OOP/example9/Qwiz9.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,13 +92,13 @@
       <recent name="C:\Users\ucelebi\Documents\Celebi\AdvancedJava\src\com\company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScreenerData">
-    <configuration name="Airplane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.OOP.Example6.Airplane" />
+  <component name="RunManager" selected="Application.Form1">
+    <configuration name="Form1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JavaGUI.Form1" />
       <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.OOP.Example6.*" />
+          <option name="PATTERN" value="com.company.JavaGUI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MeansOfMovement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.OOP.Example6.MeansOfMovement" />
+    <configuration name="ScreenerData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.OOP.example8.ScreenerData" />
       <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.OOP.Example6.*" />
+          <option name="PATTERN" value="com.company.OOP.example8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScreenerData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.OOP.example8.ScreenerData" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.OOP.Example10.Test" />
       <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.OOP.example8.*" />
+          <option name="PATTERN" value="com.company.OOP.Example10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Form1" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ScreenerData" />
         <item itemvalue="Application.FunctionalCircle" />
         <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.MeansOfMovement" />
-        <item itemvalue="Application.Airplane" />
       </list>
     </recent_temporary>
   </component>
@@ -342,6 +348,8 @@
       <workItem from="1614787154527" duration="2760000" />
       <workItem from="1614799768421" duration="93000" />
       <workItem from="1615929167560" duration="437000" />
+      <workItem from="1618305271790" duration="3501000" />
+      <workItem from="1619302644001" duration="309000" />
     </task>
     <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485544830</created>
@@ -794,12 +802,10 @@
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1614791935356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1608231746026" />
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1614791935356" />
     <state x="1048" y="47" width="488" height="422" key="#xdebugger.evaluate" timestamp="1614793161426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="1048" y="47" width="488" height="422" key="#xdebugger.evaluate/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1608234268171" />
     <state x="1048" y="47" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1614793161426" />
     <state x="93" y="93" width="1350" height="638" maximized="true" key="DiffContextDialog" timestamp="1611135809054">
       <screen x="0" y="0" width="1536" height="824" />
@@ -808,36 +814,31 @@
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1613508226646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606675816509" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613508226646" />
-    <state width="1493" height="164" key="GridCell.Tab.0.bottom" timestamp="1614799706233">
+    <state width="1493" height="164" key="GridCell.Tab.0.bottom" timestamp="1618318947990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610139730373" />
-    <state width="1493" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614799706233" />
-    <state width="1493" height="164" key="GridCell.Tab.0.center" timestamp="1614799706233">
+    <state width="1493" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618318947990" />
+    <state width="1493" height="164" key="GridCell.Tab.0.center" timestamp="1618318947990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610139730373" />
-    <state width="1493" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614799706233" />
-    <state width="1493" height="164" key="GridCell.Tab.0.left" timestamp="1614799706232">
+    <state width="1493" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618318947990" />
+    <state width="1493" height="164" key="GridCell.Tab.0.left" timestamp="1618318947990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610139730373" />
-    <state width="1493" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614799706232" />
-    <state width="1493" height="164" key="GridCell.Tab.0.right" timestamp="1614799706233">
+    <state width="1493" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618318947990" />
+    <state width="1493" height="164" key="GridCell.Tab.0.right" timestamp="1618318947990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610139730373" />
-    <state width="1493" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614799706233" />
+    <state width="1493" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618318947990" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1614793138676">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1614793138676" />
-    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1608309975267">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1608309975267" />
     <state x="195" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613345117315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -845,7 +846,6 @@
     <state x="478" y="147" width="579" height="554" key="find.popup" timestamp="1614617498542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="478" y="147" width="579" height="530" key="find.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1608238181072" />
     <state x="478" y="147" width="579" height="554" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1614617498542" />
     <state x="226" y="67" width="1118" height="722" key="new project wizard" timestamp="1614248393478">
       <screen x="0" y="0" width="1536" height="824" />
@@ -862,7 +862,6 @@
     <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1613345136693">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1608234769119" />
     <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1613345136693" />
   </component>
   <component name="XDebuggerManager">
@@ -930,6 +929,11 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/OOP/Example10/Test.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

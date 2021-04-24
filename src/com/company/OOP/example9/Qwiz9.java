@@ -1,42 +1,48 @@
-package com.company.OOP.example8;
+package com.company.OOP.example9;
 
-class Expression
-{
-    private int a;
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+class Expression {
+	private int a;
 	private int b;
 	private String operator;
-	
-	public Expression(){}
-	public Expression(int a, int op,int b){
+
+	public Expression() {
+	}
+
+	public Expression(int a, String op, int b) {
 		this.a = a;
 		this.b = b;
 		this.operator = op;
 	}
-	
-	public int getA(){
+
+	public int getA() {
 		return a;
 	}
-	public int getB(){
+
+	public int getB() {
 		return b;
 	}
-	public String getExp(){
+
+	public String getExp() {
 		return operator;
 	}
-	
-	public int evaluate(){
-		switch (operator){
+
+	public int evaluate() {
+		switch (operator) {
 			case "+":
-				return a+b;
-				break;
+				return a + b;
 			case "-":
-				return a-b;
-				break
+				return a - b;
 			case "*":
-				return a*b;
-				break
-				default:break;
+				return a * b;
+			default:
+				break;
 		}
+		return 0;
 	}
+
 	
 	public String toString(){
 		return " ( " + a + " " + operator + " " + b + " ) ";
@@ -52,13 +58,13 @@ class Qwiz9
 		try {
 			reader = new BufferedReader(new FileReader("input.txt"));
 			String line = reader.readLine();
-			while (line != null){
-				if (globalResult <= 50){
+			while (line != null) {
+				if (globalResult <= 50) {
 					line = reader.readLine();
-					exp = new Expression(String.valueOf(line.charAt(0))
-									,line.charAt(1)
-									,String.valueOf(line.charAt(2)));
-			
+					exp = new Expression(line.charAt(0)
+							, String.valueOf(line.charAt(1))
+							, line.charAt(2));
+
 					int lineResult = exp.evaluate();
 					globalResult += lineResult;
 					System.out.println(exp.toString() + " total " + globalResult);
@@ -66,6 +72,8 @@ class Qwiz9
 					break;
 				}
 			}
+		} catch(Exception e) {
+			e.printStackTrace();
 		}
 	}
 }
