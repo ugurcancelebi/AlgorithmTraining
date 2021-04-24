@@ -50,7 +50,7 @@ class Expression {
 }
 
 class Qwiz9
-{	
+{	 
 	public static void main(String[] args){
 		int globalResult = 0;
 		BufferedReader reader;
