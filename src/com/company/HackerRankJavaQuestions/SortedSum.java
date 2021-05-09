@@ -1,54 +1,49 @@
 package com.company.HackerRankJavaQuestions;
+
 import java.io.*;
+import java.lang.reflect.Array;
 import java.math.*;
 import java.security.*;
 import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
-import java.util.function.*;
 import java.util.regex.*;
-import java.util.stream.*;
 
-import static java.util.stream.Collectors.*;
-
-
-class SortedSum {
-
-    /*
-     * Complete the 'sortedSum' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts INTEGER_ARRAY a as parameter.
-     */
-
+class Result {
     public static int sortedSum(List<Integer> a) {
-        int total  = 0;
-        int subTotal = 0;
-
-        for (int i = 1;i < a.size()+1 ;i++){
-            if (a.get(i) != null) {
-                if (a.get(i - 1) > a.get(i)) {
-                    int temp = a.get(i - 1);
-                    a.set(i - 1, a.get(i));
-                    a.set(i, temp);
-                }
+        int totalSum = 0;
+        a.sort((integer, t1) -> t1-integer);//asc
+        System.out.println(a);
+        for(int i = a.size(); i > 0 ;i--){
+            int sumVal = 0;
+            for (int j = 0;j < i ;j++){
+                sumVal += ((1+j) * a.get(j));
             }
-            for (int j = 1;j <= i; j++) {
-                int number = a.get(j-1) * j;
-                subTotal += number;
-            }
-            total += subTotal;
-            subTotal=0;
+            totalSum += sumVal;
         }
-        return total;
+        return totalSum;
     }
-
+}
+public class SortedSum {
     public static void main(String[] args) throws IOException {
-        List<Integer> integerList = new ArrayList<>();
-        integerList.add(9);
-        integerList.add(5);
-        integerList.add(8);
-        System.out.println(sortedSum(integerList));
-    }
+        //BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        //BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
+        //int aCount = Integer.parseInt(bufferedReader.readLine().trim());
+
+        List<Integer> a = Arrays.asList(4,3,2,1);
+        System.out.println(Result.sortedSum(a));
+        //for (int i = 0; i < aCount; i++) {
+       //     int aItem = Integer.parseInt(bufferedReader.readLine().trim());
+       //     a.add(aItem);
+       // }
+
+       // int result = Result.sortedSum(a);
+
+        //bufferedWriter.write(String.valueOf(result));
+        //bufferedWriter.newLine();
+
+       // bufferedReader.close();
+        //bufferedWriter.close();
+    }
 }
