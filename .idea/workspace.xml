@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="Redundant classes has been removed.">
-      <change afterPath="$PROJECT_DIR$/src/com/company/BasicJava/Robo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/META-INF/JavaPlayground.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ah" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../a3_alms_agent/a3_alms_agent" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -350,7 +348,9 @@
       <workItem from="1621458791214" duration="44000" />
       <workItem from="1622700048225" duration="2469000" />
       <workItem from="1622717240846" duration="11000" />
-      <workItem from="1622794734286" duration="1198000" />
+      <workItem from="1622794734286" duration="2424000" />
+      <workItem from="1623020105056" duration="17000" />
+      <workItem from="1623063028891" duration="3334000" />
     </task>
     <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485544830</created>
