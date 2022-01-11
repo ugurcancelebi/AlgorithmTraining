@@ -1,4 +1,4 @@
-package com.company.DesignPatterns;
+package com.company.DesignPatterns.Java;
 
 interface furnitureType {
     void draw();

@@ -20,7 +20,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="Redundant classes has been removed.">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/Kotlin/Abstract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/Kotlin/Singleton.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPlayground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPlayground.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Activity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/BillingCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/BridgePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Chair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/DIYChair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/DIYSofa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Exchange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/FactoryDesignPatterns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/FactoryProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/FurnitureFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/RBB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Redemption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/RevB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Sofa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/furnitureType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DesignPatterns/BridgePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/Java/BridgePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DesignPatterns/FactoryDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/Java/FactoryDesignPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +66,7 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -88,33 +122,7 @@
       <recent name="C:\Users\ucelebi\Documents\Celebi\AdvancedJava\src\com\company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Robo">
-    <configuration name="LocateButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.LocateButton" />
-      <module name="JavaPlayground" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.BasicJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Quiz11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.Quiz11" />
-      <module name="JavaPlayground" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.BasicJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AbstractFactoryTest.abstractFactoryTest">
     <configuration name="Robo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.Robo" />
       <module name="JavaPlayground" />
@@ -148,13 +156,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AbstractFactoryTest.abstractFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaPlayground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.DesignPatterns.Kotlin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.DesignPatterns.Kotlin" />
+      <option name="MAIN_CLASS_NAME" value="com.company.DesignPatterns.Kotlin.AbstractFactoryTest" />
+      <option name="METHOD_NAME" value="abstractFactoryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest.singletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaPlayground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.DesignPatterns.Kotlin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.DesignPatterns.Kotlin" />
+      <option name="MAIN_CLASS_NAME" value="com.company.DesignPatterns.Kotlin.SingletonTest" />
+      <option name="METHOD_NAME" value="singletonTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AbstractFactoryTest.abstractFactoryTest" />
+        <item itemvalue="JUnit.SingletonTest.singletonTest" />
         <item itemvalue="Application.Robo" />
         <item itemvalue="Application.robo" />
         <item itemvalue="Application.SortedSum" />
-        <item itemvalue="Application.Quiz11" />
-        <item itemvalue="Application.LocateButton" />
       </list>
     </recent_temporary>
   </component>
@@ -874,6 +927,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AdvancedJava$TicTacToe__1_.ic" NAME="TicTacToe (1) Coverage Results" MODIFIED="1594575328701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.BasicJava.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaPlayground$Robo.ic" NAME="Robo Coverage Results" MODIFIED="1640766074965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.company.BasicJava.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AdvancedJava$ArrayRotation.ic" NAME="ArrayRotation Coverage Results" MODIFIED="1588797733128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
