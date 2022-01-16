@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,43 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd45697a-0550-4c58-a1ae-0463626ce9d7" name="Default Changelist" comment="Redundant classes has been removed.">
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/Kotlin/Adapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/Kotlin/State.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPatterns/Kotlin/Strategy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LeetCodeJavaQuestions/Codility2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/META-INF/JavaPlayground.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/META-INF/JavaPlayground.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/AbstractFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/AbstractFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/AnimalFactory$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/AnimalFactory$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/AnimalFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/AnimalFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/BuilderKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/BuilderKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/BuilderTest$builder$dialog$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/BuilderTest$builder$dialog$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/BuilderTest$builder$dialog$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/BuilderTest$builder$dialog$1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/BuilderTest$builder$dialog$1$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/BuilderTest$builder$dialog$1$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/BuilderTest$builder$dialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/BuilderTest$builder$dialog$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/BuilderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/BuilderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Canada.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Canada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/CatFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/CatFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Country$USA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Country$USA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Country.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Currency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Currency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/CurrencyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/CurrencyFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Dialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Dialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/DialogBuilder$TextView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/DialogBuilder$TextView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/DialogBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/DialogBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/DogFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/DogFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/FactoryMethodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/FactoryMethodTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Greece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Greece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/ListenerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/ListenerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/OnTextChangedListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/OnTextChangedListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/PrintingTextChangedListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/PrintingTextChangedListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/SingletonObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/SingletonObj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/SingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/SingletonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Spain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/Spain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/TextView$$special$$inlined$observable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/TextView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPlayground/com/company/DesignPatterns/Kotlin/TextView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LeetCodeJavaQuestions/Codility.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LeetCodeJavaQuestions/Codility.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +103,7 @@
       <recent name="C:\Users\ucelebi\Documents\Celebi\AdvancedJava\src\com\company" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StateTest.testState">
+  <component name="RunManager" selected="JUnit.Codility2">
     <configuration name="Robo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.BasicJava.Robo" />
       <module name="JavaPlayground" />
@@ -159,65 +128,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdapterTest.adapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Codility" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.DesignPatterns.Kotlin.*" />
+          <option name="PATTERN" value="com.company.LeetCodeJavaQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.company.DesignPatterns.Kotlin" />
-      <option name="MAIN_CLASS_NAME" value="com.company.DesignPatterns.Kotlin.AdapterTest" />
-      <option name="METHOD_NAME" value="adapter" />
+      <option name="PACKAGE_NAME" value="com.company.LeetCodeJavaQuestions" />
+      <option name="MAIN_CLASS_NAME" value="com.company.LeetCodeJavaQuestions.Codility" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Codility2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaPlayground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.LeetCodeJavaQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.LeetCodeJavaQuestions" />
+      <option name="MAIN_CLASS_NAME" value="com.company.LeetCodeJavaQuestions.Codility2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Codility2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaPlayground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.LeetCodeJavaQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.LeetCodeJavaQuestions" />
+      <option name="MAIN_CLASS_NAME" value="com.company.LeetCodeJavaQuestions.Codility2" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMethodTest.factoryMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Codility.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.DesignPatterns.Kotlin.*" />
+          <option name="PATTERN" value="com.company.LeetCodeJavaQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.company.DesignPatterns.Kotlin" />
-      <option name="MAIN_CLASS_NAME" value="com.company.DesignPatterns.Kotlin.FactoryMethodTest" />
-      <option name="METHOD_NAME" value="factoryMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StateTest.testState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaPlayground" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.DesignPatterns.Kotlin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company.DesignPatterns.Kotlin" />
-      <option name="MAIN_CLASS_NAME" value="com.company.DesignPatterns.Kotlin.StateTest" />
-      <option name="METHOD_NAME" value="testState" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StrategyTest.strategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaPlayground" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.DesignPatterns.Kotlin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company.DesignPatterns.Kotlin" />
-      <option name="MAIN_CLASS_NAME" value="com.company.DesignPatterns.Kotlin.StrategyTest" />
-      <option name="METHOD_NAME" value="strategy" />
+      <option name="PACKAGE_NAME" value="com.company.LeetCodeJavaQuestions" />
+      <option name="MAIN_CLASS_NAME" value="com.company.LeetCodeJavaQuestions.Codility" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StateTest.testState" />
-        <item itemvalue="JUnit.StrategyTest.strategy" />
-        <item itemvalue="JUnit.AdapterTest.adapter" />
+        <item itemvalue="JUnit.Codility2" />
+        <item itemvalue="JUnit.Codility2.test" />
+        <item itemvalue="JUnit.Codility.test" />
+        <item itemvalue="JUnit.Codility" />
         <item itemvalue="Application.Robo" />
-        <item itemvalue="JUnit.FactoryMethodTest.factoryMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +393,9 @@
       <workItem from="1622794734286" duration="2424000" />
       <workItem from="1623020105056" duration="17000" />
       <workItem from="1623063028891" duration="3334000" />
-      <workItem from="1642016562270" duration="3217000" />
+      <workItem from="1642016562270" duration="7082000" />
+      <workItem from="1642273474081" duration="5000" />
+      <workItem from="1642273500262" duration="8269000" />
     </task>
     <task id="LOCAL-00004" summary="Added toString method to console.&#10;Implemented Rock,Paper &amp; Scissors game.">
       <created>1568485544830</created>
@@ -937,6 +906,16 @@
           <url>file://$PROJECT_DIR$/src/com/company/HackerRankJavaQuestions/SortedSum.java</url>
           <line>18</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/company/LeetCodeJavaQuestions/Codility.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/company/LeetCodeJavaQuestions/Codility2.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
